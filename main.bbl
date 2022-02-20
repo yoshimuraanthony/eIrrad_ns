@@ -1,0 +1,444 @@
+\providecommand*{\mcitethebibliography}{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+{\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{55}
+\providecommand*{\natexlab}[1]{#1}
+\providecommand*{\mciteSetBstSublistMode}[1]{}
+\providecommand*{\mciteSetBstMaxWidthForm}[2]{}
+\providecommand*{\mciteBstWouldAddEndPuncttrue}
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*{\mciteBstWouldAddEndPunctfalse}
+  {\let\EndOfBibitem\relax}
+\providecommand*{\mciteSetBstMidEndSepPunct}[3]{}
+\providecommand*{\mciteSetBstSublistLabelBeginEnd}[3]{}
+\providecommand*{\EndOfBibitem}{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}
+{(\emph{\alph{mcitesubitemcount}})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem[Banhart(1999)]{Banhart1999}
+F.~Banhart, \emph{Rep. Prog. Phys.}, 1999, \textbf{62}, 1181--1221\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Egerton(2013)]{Egerton2013}
+R.~F. Egerton, \emph{Ultramicroscopy}, 2013, \textbf{127}, 100--108\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhao \emph{et~al.}(2017)Zhao, Kotakoski, Meyer, Sutter, Sutter,
+  Krasheninnikov, Kaiser, and Zhou]{Zhao2017}
+X.~Zhao, J.~Kotakoski, J.~C. Meyer, E.~Sutter, P.~Sutter, A.~V. Krasheninnikov,
+  U.~Kaiser and W.~Zhou, \emph{MRS Bull.}, 2017, \textbf{42}, 667--676\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Susi \emph{et~al.}(2019)Susi, Meyer, and Kotakoski]{Susi2019}
+T.~Susi, J.~C. Meyer and J.~Kotakoski, \emph{Nat. Rev. Phys.}, 2019,
+  \textbf{1}, 397--405\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Meyer \emph{et~al.}(2012)Meyer, Eder, Kurasch, Skakalova, Kotakoski,
+  Park, Roth, Chuvilin, Eyhusen, Benner, Krasheninnikov, and Kaiser]{Meyer2012}
+J.~C. Meyer, F.~Eder, S.~Kurasch, V.~Skakalova, J.~Kotakoski, H.~J. Park,
+  S.~Roth, A.~Chuvilin, S.~Eyhusen, G.~Benner, A.~V. Krasheninnikov and
+  U.~Kaiser, \emph{Phys. Rev. Lett.}, 2012, \textbf{108}, 196102--196107\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Susi \emph{et~al.}(2016)Susi, Hofer, Argentero, Leuthner, Pennycook,
+  Mangler, Meyer, and Kotakoski]{Susi2016}
+T.~Susi, C.~Hofer, G.~Argentero, G.~T. Leuthner, T.~J. Pennycook, C.~Mangler,
+  J.~C. Meyer and J.~Kotakoski, \emph{Nat. Commun.}, 2016, \textbf{7},
+  13040\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yoshimura \emph{et~al.}(2018)Yoshimura, Lamparski, Kharche, and
+  Meunier]{Yoshimura2018}
+A.~Yoshimura, M.~Lamparski, N.~Kharche and V.~Meunier, \emph{Nanoscale}, 2018,
+  \textbf{10}, 2388--2397\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kotakoski \emph{et~al.}(2010)Kotakoski, Jin, Lehtinen, Suenaga, and
+  Krasheninnikov]{Kotakoski2010}
+J.~Kotakoski, C.~H. Jin, O.~Lehtinen, K.~Suenaga and A.~V. Krasheninnikov,
+  \emph{Phys. Rev. B}, 2010, \textbf{82}, 113404\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cretu \emph{et~al.}(2015)Cretu, Lin, and Suenaga]{Cretu2015}
+O.~Cretu, Y.~C. Lin and K.~Suenaga, \emph{Micron}, 2015, \textbf{72},
+  21--27\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lin \emph{et~al.}(2015)Lin, Bj{\"{o}}rkman, Komsa, Teng, Yeh, Huang,
+  Lin, Jadczak, Huang, Chiu, Krasheninnikov, and Suenaga]{Lin2015}
+Y.-C. Lin, T.~Bj{\"{o}}rkman, H.-P. Komsa, P.-Y. Teng, C.-H. Yeh, F.-S. Huang,
+  K.-H. Lin, J.~Jadczak, Y.-S. Huang, P.-W. Chiu, A.~V. Krasheninnikov and
+  K.~Suenaga, \emph{Nat. Commun.}, 2015, \textbf{6}, 6736--6741\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lehnert \emph{et~al.}(2017)Lehnert, Lehtinen, Siller, Kaiser,
+  Algara-Siller, and Kaiser]{Lehnert2017}
+T.~Lehnert, O.~Lehtinen, G.~A. Siller, U.~Kaiser, G.~Algara-Siller and
+  U.~Kaiser, \emph{Appl. Phys. Lett.}, 2017, \textbf{110}, 033106\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kretschmer \emph{et~al.}(2020)Kretschmer, Lehnert, Kaiser, {V.
+  Krasheninnikov}, and Krasheninnikov]{Kretschmer2020}
+S.~Kretschmer, T.~Lehnert, U.~Kaiser, A.~{V. Krasheninnikov} and A.~V.
+  Krasheninnikov, \emph{Nano Lett.}, 2020, \textbf{20}, 2865--2870\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hohenberg and Kohn(1964)]{Hohenberg1964}
+P.~Hohenberg and W.~Kohn, \emph{Phys. Rev.}, 1964, \textbf{136},
+  B864--871\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kohn and Sham(1965)]{Kohn1965}
+W.~Kohn and L.~J. Sham, \emph{Phys. Rev.}, 1965, \textbf{140},
+  A1133--1138\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kresse and Furthm{\"{u}}ller(1996)]{Kresse1996a}
+G.~Kresse and J.~Furthm{\"{u}}ller, \emph{Phys. Rev. B}, 1996, \textbf{54},
+  11169--11186\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Louren{\c{c}}o-Martins \emph{et~al.}(2021)Louren{\c{c}}o-Martins,
+  Lubk, and Kociak]{Lourenco-Martins2021}
+H.~Louren{\c{c}}o-Martins, A.~Lubk and M.~Kociak, \emph{SciPost Phys.}, 2021,
+  \textbf{10}, 31\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Peskin and Schroeder(1995)]{Peskin1995}
+M.~E. Peskin and D.~V. Schroeder, \emph{{An Introduction to Quantum Field
+  Theory}}, Perseus Books Publishing, L.L.C., Reading, MA, 1st edn, 1995\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lancaster and Blundell(2014)]{Lancaster2014}
+T.~Lancaster and S.~J. Blundell, \emph{{Quantum Field Theory for the Gifted
+  Amateur}}, Oxford University Press, New York, NY, United States of America,
+  1st edn, 2014, p. 350\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mott(1929)]{Mott1929}
+N.~F. Mott, \emph{Proc. R. Soc. A}, 1929, \textbf{124}, 425--442\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McKinley and Feshbach(1948)]{McKinley1948}
+W.~A. McKinley and H.~Feshbach, \emph{Phys. Rev.}, 1948, \textbf{74},
+  1759--1763\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Oen(1973)]{Oen1973}
+O.~S. Oen, \emph{{Cross Sections for Atomic Displacements in Solids by Fast
+  Electrons}}, Oak ridge national laboratory technical report, 1973\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Egerton \emph{et~al.}(2010)Egerton, McLeod, Wang, and
+  Malac]{Egerton2010}
+R.~F. Egerton, R.~McLeod, F.~Wang and M.~Malac, \emph{Ultramicroscopy}, 2010,
+  \textbf{110}, 991--997\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[M{\o}ller(1932)]{Moller1932}
+C.~M{\o}ller, \emph{Ann. Phys.}, 1932, \textbf{406}, 531--585\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kragh(1992)]{Kragh1992}
+H.~Kragh, \emph{Arch. Hist. Exact Sci.}, 1992, \textbf{43}, 299--328\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Roqu{\'e}(1992)]{Roqu1992}
+X.~Roqu{\'e}, \emph{Arch. Hist. Exact Sci.}, 1992, \textbf{44}, 197--264\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bethe(1930)]{Bethe1930}
+H.~Bethe, \emph{Ann. Phys.}, 1930, \textbf{397}, 325--400\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Inokuti \emph{et~al.}(1967)Inokuti, Kim, and Platzman]{Inokuti1967}
+M.~Inokuti, Y.-K. Kim and R.~L. Platzman, \emph{Phys. Rev.}, 1967,
+  \textbf{164}, 55--61\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gusakova \emph{et~al.}(2017)Gusakova, Wang, Shiau, Krivosheeva,
+  Shaposhnikov, Borisenko, Gusakov, and Tay]{Gusakova2017}
+J.~Gusakova, X.~Wang, L.~L. Shiau, A.~Krivosheeva, V.~Shaposhnikov,
+  V.~Borisenko, V.~Gusakov and B.~K. Tay, \emph{Phys. status solidi}, 2017,
+  \textbf{214}, 1700218\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Elias \emph{et~al.}(2019)Elias, Valvin, Pelini, Summerfield, Mellor,
+  Cheng, Eaves, Foxon, Beton, Novikov, Gil, and Cassabois]{Elias2019}
+C.~Elias, P.~Valvin, T.~Pelini, A.~Summerfield, C.~J. Mellor, T.~S. Cheng,
+  L.~Eaves, C.~T. Foxon, P.~H. Beton, S.~V. Novikov, B.~Gil and G.~Cassabois,
+  \emph{Nat. Commun.}, 2019, \textbf{10}, 2639\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lingerfelt \emph{et~al.}(2019)Lingerfelt, Ganesh, Jakowski, and
+  Sumpter]{Lingerfelt2019a}
+D.~B. Lingerfelt, P.~Ganesh, J.~Jakowski and B.~G. Sumpter, \emph{Adv. Funct.
+  Mater.}, 2019, \textbf{1901901}, 1901901\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Li \emph{et~al.}(2005)Li, Tully, Schlegel, and Frisch]{Li2005}
+X.~Li, J.~C. Tully, H.~B. Schlegel and M.~J. Frisch, \emph{J. Chem. Phys.},
+  2005, \textbf{123}, 84106\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Komsa \emph{et~al.}(2012)Komsa, Kotakoski, Kurasch, Lehtinen, Kaiser,
+  and Krasheninnikov]{Komsa2012}
+H.~P. Komsa, J.~Kotakoski, S.~Kurasch, O.~Lehtinen, U.~Kaiser and A.~V.
+  Krasheninnikov, \emph{Phys. Rev. Lett.}, 2012, \textbf{109},
+  035503--1--5\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jin \emph{et~al.}(2009)Jin, Lin, Suenaga, and Iijima]{Jin2009}
+C.~Jin, F.~Lin, K.~Suenaga and S.~Iijima, \emph{Phys. Rev. Lett.}, 2009,
+  \textbf{102}, 195505\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Meyer \emph{et~al.}(2009)Meyer, Chuvilin, Algara-Siller, Biskupek, and
+  Kaiser]{Meyer2009}
+J.~C. Meyer, A.~Chuvilin, G.~Algara-Siller, J.~Biskupek and U.~Kaiser,
+  \emph{Nano Lett.}, 2009, \textbf{9}, 2683--2689\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dogan \emph{et~al.}(2020)Dogan, Gilbert, Pham, Shevitski, Ercius,
+  Aloni, Zettl, and Cohen]{Dogan2020}
+M.~Dogan, S.~M. Gilbert, T.~Pham, B.~Shevitski, P.~Ercius, S.~Aloni, A.~Zettl
+  and M.~L. Cohen, \emph{Appl. Phys. Lett.}, 2020, \textbf{117}, 9--13\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Li \emph{et~al.}(2016)Li, Cao, Hoffman, Edgar, Lin, and
+  Jiang]{Li2016b}
+J.~Li, X.~K. Cao, T.~B. Hoffman, J.~H. Edgar, J.~Y. Lin and H.~X. Jiang,
+  \emph{Appl. Phys. Lett.}, 2016, \textbf{108}, 122101--1--4\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Korn \emph{et~al.}(2011)Korn, Heydrich, Hirmer, Schmutzler,
+  Sch{\"{u}}ller, and Schller]{Korn2011}
+T.~Korn, S.~Heydrich, M.~Hirmer, J.~Schmutzler, C.~Sch{\"{u}}ller and
+  C.~Schller, \emph{Appl. Phys. Lett.}, 2011, \textbf{99}, 102109\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lagarde \emph{et~al.}(2014)Lagarde, Bouet, Marie, Zhu, Liu, Amand,
+  Tan, and Urbaszek]{Lagarde2014}
+D.~Lagarde, L.~Bouet, X.~Marie, C.~R. Zhu, B.~L. Liu, T.~Amand, P.~H. Tan and
+  B.~Urbaszek, \emph{Phys. Rev. Lett.}, 2014, \textbf{112}, 047401\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Palummo \emph{et~al.}(2015)Palummo, Bernardi, and
+  Grossman]{Palummo2015a}
+M.~Palummo, M.~Bernardi and J.~C. Grossman, \emph{Nano Lett.}, 2015,
+  \textbf{15}, 2794--2800\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kozawa \emph{et~al.}(2014)Kozawa, Kumar, Carvalho, {Kumar Amara},
+  Zhao, Wang, Toh, Ribeiro, {Castro Neto}, Matsuda, and Eda]{Kozawa2014}
+D.~Kozawa, R.~Kumar, A.~Carvalho, K.~{Kumar Amara}, W.~Zhao, S.~Wang, M.~Toh,
+  R.~M. Ribeiro, A.~H. {Castro Neto}, K.~Matsuda and G.~Eda, \emph{Nat.
+  Commun.}, 2014, \textbf{5}, 4543\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nie \emph{et~al.}(2015)Nie, Long, {S. Teguh}, Huang, {W. Hewak}, {K.
+  L. Yeow}, Shen, {V. Prezhdo}, and Loh]{Nie2015}
+Z.~Nie, R.~Long, J.~{S. Teguh}, C.-C. Huang, D.~{W. Hewak}, E.~{K. L. Yeow},
+  Z.~Shen, O.~{V. Prezhdo} and Z.-H. Loh, \emph{J. Phys. Chem. C}, 2015,
+  \textbf{119}, 20698--20708\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shi \emph{et~al.}(2013)Shi, Yan, Bertolazzi, Brivio, Gao, Kis, Jena,
+  Xing, and Huang]{Shi2013b}
+H.~Shi, R.~Yan, S.~Bertolazzi, J.~Brivio, B.~Gao, A.~Kis, D.~Jena, H.~G. Xing
+  and L.~Huang, \emph{ACS Nano}, 2013, \textbf{7}, 1072--1080\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bl{\"{o}}chl(1994)]{Blochl1994}
+P.~E. Bl{\"{o}}chl, \emph{Phys. Rev. B}, 1994, \textbf{50}, 17953--17979\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shishkin and Kresse(2006)]{Shishkin2006a}
+M.~Shishkin and G.~Kresse, \emph{Phys. Rev. B}, 2006, \textbf{74}, 035101\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gajdo{\v{s}} \emph{et~al.}(2006)Gajdo{\v{s}}, Hummer, Kresse,
+  Furthm{\"{u}}ller, and Bechstedt]{Gajdos2006}
+M.~Gajdo{\v{s}}, K.~Hummer, G.~Kresse, J.~Furthm{\"{u}}ller and F.~Bechstedt,
+  \emph{Phys. Rev. B}, 2006, \textbf{73}, 045112\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Paier \emph{et~al.}(2005)Paier, Hirschl, Marsman, and
+  Kresse]{Paier2005}
+J.~Paier, R.~Hirschl, M.~Marsman and G.~Kresse, \emph{J. Chem. Phys.}, 2005,
+  \textbf{122}, 234102\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kaduk \emph{et~al.}(2012)Kaduk, Kowalczyk, and {Van
+  Voorhis}]{Kaduk2012}
+B.~Kaduk, T.~Kowalczyk and T.~{Van Voorhis}, \emph{Chem. Rev.}, 2012,
+  \textbf{112}, 321--370\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kresse and Furthm{\"{u}}ller(1996)]{Kresse1996}
+G.~Kresse and J.~Furthm{\"{u}}ller, \emph{Comput. Mater. Sci.}, 1996,
+  \textbf{6}, 15--50\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perdew \emph{et~al.}(1996)Perdew, Burke, and Ernzerhof]{Perdew1996}
+J.~P. Perdew, K.~Burke and M.~Ernzerhof, \emph{Phys. Rev. Lett.}, 1996,
+  \textbf{77}, 3865--3868\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Klime{\v{s}} \emph{et~al.}(2009)Klime{\v{s}}, Bowler, and
+  Michaelides]{Klimes2010}
+J.~Klime{\v{s}}, D.~Bowler and A.~Michaelides, \emph{J. Phys. Condens. Matter},
+  2009, \textbf{22}, 022201--022205\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Klime{\v{s}} \emph{et~al.}(2011)Klime{\v{s}}, Bowler, and
+  Michaelides]{Klimes2011}
+J.~Klime{\v{s}}, D.~R. Bowler and A.~Michaelides, \emph{Phys. Rev. B}, 2011,
+  \textbf{83}, 195131--1--13\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Monkhorst and Pack(1976)]{Monkhorst1976}
+H.~Monkhorst and J.~Pack, \emph{Phys. Rev. B}, 1976, \textbf{13},
+  5188--5192\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hamann(2013)]{Hamann2013}
+D.~R. Hamann, \emph{Phys. Rev. B}, 2013, \textbf{88}, 085117\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schlipf and Gygi(2015)]{Schlipf2015}
+M.~Schlipf and F.~Gygi, \emph{Comput. Phys. Commun.}, 2015, \textbf{196},
+  36--44\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Giannozzi \emph{et~al.}(2009)Giannozzi, Baroni, Bonini, Calandra, Car,
+  Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, Corso, de~Gironcoli,
+  Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
+  Martin-Samos, Marzari, Mauri, Mazzarello, Paolini, Pasquarello, Paulatto,
+  Sbraccia, Scandolo, Sclauzero, Seitsonen, Smogunov, Umari, and
+  Wentzcovitch]{Giannozzi2009}
+P.~Giannozzi, S.~Baroni, N.~Bonini, M.~Calandra, R.~Car, C.~Cavazzoni,
+  D.~Ceresoli, G.~L. Chiarotti, M.~Cococcioni, I.~Dabo, A.~D. Corso,
+  S.~de~Gironcoli, S.~Fabris, G.~Fratesi, R.~Gebauer, U.~Gerstmann,
+  C.~Gougoussis, A.~Kokalj, M.~Lazzeri, L.~Martin-Samos, N.~Marzari, F.~Mauri,
+  R.~Mazzarello, S.~Paolini, A.~Pasquarello, L.~Paulatto, C.~Sbraccia,
+  S.~Scandolo, G.~Sclauzero, A.~P. Seitsonen, A.~Smogunov, P.~Umari and R.~M.
+  Wentzcovitch, \emph{J. Phys. Condens. Matter}, 2009, \textbf{21},
+  395502\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
