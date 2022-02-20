@@ -55,7 +55,7 @@
 \makeatletter
 \renewcommand\LARGE{\@setfontsize\LARGE{15pt}{17}}
 \renewcommand\Large{\@setfontsize\Large{12pt}{14}}
-\renewcommand\large{\@setfontsize\large{10pt}{12}}
+enewcommand\large{\@setfontsize\large{10pt}{12}}
 \renewcommand\footnotesize{\@setfontsize\footnotesize{7pt}{10}}
 \makeatother
 
@@ -210,9 +210,19 @@
   Institute, Troy, NY 12180, USA
 }}
 \footnotetext{\dag%
-  Electronic Supplementary Information (ESI) available: [details of any
-  supplementary information available should be included here].  See DOI:
-  00.0000/00000000.
+  Electronic Supplementary Information (ESI) available:
+  Derivation of the invariant matrix element $\mathcal{M}$ introduced in
+  equation (\ref{eq:M}),
+  description of the normalization scheme used for the integral in equation
+  (\ref{eq:amp}),
+  derivation of $p_3^z$ that conserves energy and momentum,
+  convergence of $\sigma$ with respect to $n_i^\text{max}$,
+  peaks in the sputtering cross section of hBN for low beam energies,
+  fitting and convergence of $S$ with respect to various parameters,
+  derivation of the minimum energy transfer $E_\text{min}$ mentioned after
+  equation (\ref{eq:Ed}),
+  and details on the derivation of $\mathcal{M}$.
+  See DOI: 00.0000/00000000.
 }
 
 %%%END OF FOOTNOTES%%%
@@ -230,10 +240,12 @@ material structure.
 Towards this aim, electron irradiation by transmission electron microscopy
 (TEM) can be an effective means of structural manipulation with spatial
 control.\cite{Banhart1999, Egerton2013, Zhao2017, Susi2019}
-Structural changes under electron irradiation can arise \textit{via} atomic displacement
-in which an incident electron nudges a material atom from its initial site.  We
-call this atom the primary knock-on atom (PKA).  Two-dimensional (2D) crystals
-provide an excellent platform to measure the rates of these PKA displacements.
+Structural changes under electron irradiation can arise \textit{via} atomic
+displacement in which an incident electron nudges a material atom from its
+initial site.
+We call this atom the primary knock-on atom (PKA).
+Two-dimensional (2D) crystals provide an excellent platform to measure the
+rates of these PKA displacements.
 When electron irradiation is normal to a 2D crystal's surface, a displacement
 likely propels the PKA away from the crystal.
 As such, these displaced atoms are often ejected from the crystal in a process
@@ -297,32 +309,75 @@ eigenvalues for a given material.
 
 % Object: preview the remainder of the paper to mentally prepare readers for
 % its structure
-This paper is divided into three sections.
-First, we describe the key physical processes that dictate the rate of
-beam-induced sputtering in a 2D insulating crystal.
-Second, we derive the probability of beam-induced electronic excitation in
-these materials as a function of beam energy.
-Finally, we show how this excitation probability can be used to predict
-sputtering cross sections in hBN and \ce{MoS2} that quantitatively agree with
-experiment.
+% This paper is divided into three sections.
+This paper is organized as follows.
+First,
+we derive the theoretical model to determine beam-induced sputtering rates in 2D
+insulating crystals.
+% Second,
+We then use this model to calculate sputtering cross sections in hBN and
+\ce{MoS2} that quantitatively agree with experiment.
+% Finally,
+% we describe the details of our DFT calculations.
 
 %-----------------------------------------------------------------------------
-\section{Methods}
+\section{Computational Details}
 \label{sec:methods}
 %-------------------------------------------------------------------------------
 
-DFT \cite{Hohenberg1964, Kohn1965} was used to determine all electronic and
-ionic structures from first-principles.
+% DFT \cite{Hohenberg1964, Kohn1965} was used to determine all electronic and
+% ionic structures from first-principles.
+DFT \cite{Hohenberg1964, Kohn1965} was used to calculate
+(1) the plane wave coefficients $C^n_\mathbf{G+k}$ and eigenvalues
+$\epsilon_{n\mathbf{k}}$ of each material's electronic orbitals to determine
+the excitation probabilities (section \ref{sec:crystal})
+and (2) the free energies of the pristine and sputtered structures to determine
+the displacement threshold for sputtering (section \ref{sec:assumptions}).
 
-Free energy and eigenvalue calculations were carried out with the Vienna ab
-initio Simulation Package (VASP) \cite{Kresse1996, Kresse1996a} implementing
-the projector augmented wave (PAW) method \cite{Blochl1994} along with the
+% We begin by describing the calculations of the plane-wave coefficients and
+% eigenvalues.
+Plane-wave coefficients and eigenvalues were calculated using
+Quantum ESPRESSO \cite{Giannozzi2009}.
+Because equation (\ref{eq:ampCode}) relies on the orthogonality of the
+Kohn-Sham orbitals, the optimized norm-conserving Vanderbilt
+pseudopotentials \cite{Hamann2013, Schlipf2015} were employed.
+The sum of all transition probabilities $S$ defined in equation (\ref{eq:S})
+was used to gage the convergence of all parameters, which were deemed converged
+when any increase in precision changed $S$ by less than 5\% (figure
+\ref{fig:convergences}).
+% The parameter values that satisfy this criteria differed substantially from
+% those needed for free energy convergence.
+The cutoff energies for hBN and \ce{MoS2} were set to 299 and 286 eV
+respectively, while their cell-heights were respectively set to 18 and 12
+{\AA}.
+% We recognize that this is significantly lower than what is typically required
+% for norm-conserving psuedopotentials.
+For both materials, the maximum virtual photon momentum
+$|\mathbf{q}_\text{max}|$ required for convergence fell well within their first
+BZs.
+We therefore chose $|\mathbf{q}_\text{max}|$ to be the magnitude of
+high-symmetry point $K$ in each respective BZ.
+The maximum number of initial excitations considered for hBN and \ce{MoS2} were
+$n_i^\text{max} = 5$ and 9 respectively (figure \ref{fig:nimax}).
+Finally, convergence of $S$ requires extremely dense k-point sampling of the
+BZ.
+This necessitates fitting a curve to $S$ calculated for various k-point mesh
+densities and extrapolating to an infinitely fine mesh to estimate the
+converged value of $S$ (section \ref{app:fitting}).
+The most dense k-point meshes used to fit these curves had dimensions of
+$45\times45\times1$ and $36\times36\times1$ for hBN and \ce{MoS2} respectively.
+
+Next, free energy calculations were carried out with the Vienna ab initio
+Simulation Package (VASP) \cite{Kresse1996, Kresse1996a} implementing the
+projector augmented wave (PAW) method \cite{Blochl1994} along with the
 Perdew-Burke-Ernserhof (PBE) generalized gradient approximation (GGA) to the
 exchange correlation functional. \cite{Perdew1996}
 Van der Waals interactions were accounted for using the optB88-vdW density
 functional methods. \cite{Klimes2010, Klimes2011}
 All parameters were converged so that any increase in precision would change
 the total free energy by less than 1 meV per atom.
+The parameter values that satisfy this criteria differed substantially from
+those listed in the previous paragraph.
 The cutoff energies for hBN and \ce{MoS2} were set to 800 and 550 eV
 respectively, while the BZs of both materials' pristine unit cells were sampled
 with a $\Gamma$-centered $6\times6\times1$ Monkhorst-Pack meshes,
@@ -341,37 +396,8 @@ Lastly, relaxation iterations of ionic positions and lattice constants
 persisted until the all Hellmann-Feynman forces settled below 1 
 meV/{\AA}.
 
-Because equation (\ref{eq:ampCode}) relies on the orthogonality of the
-Kohn-Sham orbitals, the optimized norm-conserving Vanderbilt
-pseudopotentials \cite{Hamann2013, Schlipf2015} implemented in Quantum
-ESPRESSO \cite{Giannozzi2009} were used to determine all plane-wave coefficients
-$C^n_\mathbf{G+k}$.
-The sum of all transition probabilities $S$ defined in equation (\ref{eq:S})
-was used to gage the convergence of all parameters, which were deemed converged
-when any increase in precision changed $S$ by less than 5\% (figure
-\ref{fig:convergences}).
-The parameter values that satisfy this criteria differed substantially from
-those needed for free energy convergence.
-The cutoff energies for hBN and \ce{MoS2} were set to 299 and 286 eV
-respectively, while their cell-heights were respectively set to 18 and 12
-{\AA}.
-For both materials, the maximum virtual photon momentum
-$|\mathbf{q}_\text{max}|$ required for convergence fell well within their first
-BZs.
-We therefore chose $|\mathbf{q}_\text{max}|$ to be the magnitude of
-high-symmetry point $K$ in each respective BZ.
-The maximum number of initial excitations considered for hBN and \ce{MoS2} were
-$n_i^\text{max} = 5$ and 9 respectively (figure \ref{fig:nimax}).
-Finally, convergence of $S$ requires extremely dense k-point sampling of the
-BZ.
-This necessitates fitting a curve to $S$ calculated for various k-point mesh
-densities and extrapolating to an infinitely fine mesh to estimate the
-converged value of $S$ (section \ref{app:fitting}).
-The most dense k-point meshes used to fit these curves had dimensions of
-$45\times45\times1$ and $36\times36\times1$ for hBN and \ce{MoS2} respectively.
-
 %------------------------------------------------------------------------------
-\section{Results and Discussion}
+\section{Theoretical Model}
 \label{sec:bigPicture}
 %------------------------------------------------------------------------------
 
@@ -1596,9 +1622,19 @@ integration bounds.
 We also have a criterion to truncate the summation over $n_i$ at
 $n_i^\text{max}$ for a given material, as described at the end of section
 \ref{sec:assumptions}.
-In the following subsections, we use these results to calculate the sputtering
+In the following section, we use these results to calculate the sputtering
 cross sections of hBN and \ce{MoS2}.
 
+%------------------------------------------------------------------------------
+\section{Results and Discussion}
+\label{sec:results}
+%------------------------------------------------------------------------------
+
+We now apply our theoretical model to calculate the sputtering cross sections
+of boron and nitrogen of hBN and sulfur from \ce{MoS2}.
+In doing so, we show that the consideration of electronic excitations is
+necessary to make quantitative predictions about beam-induced sputtering rates
+in 2D insulators.
 
 %------------------------------------------------------------------------------
 \subsubsection{Boron and nitrogen sputtering from hexagonal boron nitride}

@@ -1,6 +1,6 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Methods}{}% 2
-\BOOKMARK [1][-]{section.3}{Results and Discussion}{}% 3
+\BOOKMARK [1][-]{section.2}{Computational Details}{}% 2
+\BOOKMARK [1][-]{section.3}{Theoretical Model}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Probability of beam-induced excitation}{section.3}% 4
 \BOOKMARK [3][-]{subsubsection.3.1.1}{Scattering of free electrons}{subsection.3.1}% 5
 \BOOKMARK [3][-]{subsubsection.3.1.2}{Scattering of wave packets}{subsection.3.1}% 6
@@ -9,6 +9,7 @@
 \BOOKMARK [2][-]{subsection.3.2}{Sputtering cross section}{section.3}% 9
 \BOOKMARK [3][-]{subsubsection.3.2.1}{Effect of excitations on the displacement threshold}{subsection.3.2}% 10
 \BOOKMARK [3][-]{subsubsection.3.2.2}{Sputtering cross section in terms of the excitation lifetime}{subsection.3.2}% 11
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Boron and nitrogen sputtering from hexagonal boron nitride}{subsection.3.2}% 12
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Sulfur sputtering from molybdenum disulfide}{subsection.3.2}% 13
-\BOOKMARK [1][-]{section.4}{Conclusions}{}% 14
+\BOOKMARK [1][-]{section.4}{Results and Discussion}{}% 12
+\BOOKMARK [2][-]{subsubsection.4.0.1}{Boron and nitrogen sputtering from hexagonal boron nitride}{section.4}% 13
+\BOOKMARK [3][-]{subsubsection.4.0.2}{Sulfur sputtering from molybdenum disulfide}{subsubsection.4.0.1}% 14
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 15

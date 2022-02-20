@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  20 FEB 2022 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  20 FEB 2022 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1784,7 +1784,30 @@ LaTeX Info: Redefining \nameref on input line 43.
 \openout3 = `main.out'.
 
 \figrulesep=\skip81
-<head_foot/journal_name.pdf, id=60, 227.6505pt x 45.2892pt>
+
+
+pdfTeX warning: pdflatex (file ./head_foot/LF.pdf): PDF inclusion: found PDF ve
+rsion <1.6>, but at most version <1.5> allowed
+<head_foot/LF.pdf, id=64, 154.53032pt x 8.28976pt>
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 117.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+<head_foot/RF.pdf, id=65, 90.45795pt x 7.4679pt>
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 117.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 117.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./head_foot/LF.pdf> <./head_foot/RF.pdf>]
+<head_foot/journal_name.pdf, id=97, 227.6505pt x 45.2892pt>
 File: head_foot/journal_name.pdf Graphic file (type pdf)
 <use head_foot/journal_name.pdf>
 Package pdftex.def Info: head_foot/journal_name.pdf  used on input line 180.
@@ -1793,24 +1816,18 @@ Package pdftex.def Info: head_foot/journal_name.pdf  used on input line 180.
 
 pdfTeX warning: pdflatex (file ./head_foot/RSC_LOGO_CMYK.pdf): PDF inclusion: f
 ound PDF version <1.6>, but at most version <1.5> allowed
-<head_foot/RSC_LOGO_CMYK.pdf, id=61, 275.0506pt x 183.22552pt>
+<head_foot/RSC_LOGO_CMYK.pdf, id=98, 275.0506pt x 183.22552pt>
 File: head_foot/RSC_LOGO_CMYK.pdf Graphic file (type pdf)
 <use head_foot/RSC_LOGO_CMYK.pdf>
 Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf  used on input line 180.
 (pdftex.def)             Requested size: 82.56197pt x 55.0pt.
-<head_foot/header_bar.pdf, id=62, 512.91624pt x 36.135pt>
+<head_foot/header_bar.pdf, id=99, 512.91624pt x 36.135pt>
 File: head_foot/header_bar.pdf Graphic file (type pdf)
 <use head_foot/header_bar.pdf>
 Package pdftex.def Info: head_foot/header_bar.pdf  used on input line 180.
 (pdftex.def)             Requested size: 526.37598pt x 37.086pt.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 180.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 18
 0.
-
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1838,13 +1855,13 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 180.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
-<head_foot/DOI.pdf, id=63, 118.041pt x 9.8769pt>
+<head_foot/DOI.pdf, id=100, 118.041pt x 9.8769pt>
 File: head_foot/DOI.pdf Graphic file (type pdf)
 <use head_foot/DOI.pdf>
 Package pdftex.def Info: head_foot/DOI.pdf  used on input line 180.
@@ -1865,17 +1882,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.10008> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.00009> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
-<head_foot/dates.pdf, id=64, 79.13565pt x 64.19984pt>
+<head_foot/dates.pdf, id=101, 79.13565pt x 64.19984pt>
 File: head_foot/dates.pdf Graphic file (type pdf)
 <use head_foot/dates.pdf>
 Package pdftex.def Info: head_foot/dates.pdf  used on input line 180.
 (pdftex.def)             Requested size: 79.13544pt x 64.19968pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 180.
 
 Overfull \hbox (7.21284pt too wide) in paragraph at lines 180--180
 [][] 
@@ -1903,208 +1920,267 @@ Package hyperref Warning: Ignoring empty anchor on input line 207.
 Package hyperref Warning: Ignoring empty anchor on input line 211.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 216.
+Package hyperref Warning: Ignoring empty anchor on input line 226.
 
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 216.
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 226.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsbch.fd
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 216.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 226.
+
+Overfull \vbox (1.91985pt too high) has occurred while \output is active []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-pdfTeX warning: pdflatex (file ./head_foot/LF.pdf): PDF inclusion: found PDF ve
-rsion <1.6>, but at most version <1.5> allowed
-<head_foot/LF.pdf, id=76, 154.53032pt x 8.28976pt>
-File: head_foot/LF.pdf Graphic file (type pdf)
-<use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 276.
-(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
-<head_foot/RF.pdf, id=77, 90.45795pt x 7.4679pt>
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 276.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 288.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 288.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+ [2
 
  <./head_foot/journal_name.pdf> <./head_foot/RSC_LOGO_CMYK.pdf> <./head_foot/he
-ader_bar.pdf> <./head_foot/DOI.pdf> <./head_foot/dates.pdf> <./head_foot/LF.pdf
-> <./head_foot/RF.pdf>]
-<figures/triad.pdf, id=189, 682.86606pt x 597.50786pt>
-File: figures/triad.pdf Graphic file (type pdf)
-<use figures/triad.pdf>
-Package pdftex.def Info: figures/triad.pdf  used on input line 380.
-(pdftex.def)             Requested size: 238.01991pt x 208.26474pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 389.
-
-Overfull \vbox (3.732pt too high) has occurred while \output is active []
-
-File: head_foot/RF.pdf Graphic file (type pdf)
-<use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 404.
-(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+ader_bar.pdf> <./head_foot/DOI.pdf> <./head_foot/dates.pdf>]
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 404.
-(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
- [2 <./figures/triad.pdf>]
-File: head_foot/LF.pdf Graphic file (type pdf)
-<use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 562.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 398.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 562.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 398.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
  [3]
-<figures/tu_portrait.pdf, id=266, 526.36536pt x 674.12154pt>
+<figures/triad.pdf, id=236, 682.86606pt x 597.50786pt>
+File: figures/triad.pdf Graphic file (type pdf)
+<use figures/triad.pdf>
+Package pdftex.def Info: figures/triad.pdf  used on input line 406.
+(pdftex.def)             Requested size: 238.01991pt x 208.26474pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 415.
+
+Overfull \hbox (1.56044pt too wide) detected at line 441
+[][] \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 ^^Y [][] [] ;
+ []
+
+
+Overfull \vbox (3.29332pt too high) has occurred while \output is active []
+
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 524.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 524.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+
+[4 <./figures/triad.pdf>]
+<figures/tu_portrait.pdf, id=282, 526.36536pt x 674.12154pt>
 File: figures/tu_portrait.pdf Graphic file (type pdf)
 <use figures/tu_portrait.pdf>
-Package pdftex.def Info: figures/tu_portrait.pdf  used on input line 572.
+Package pdftex.def Info: figures/tu_portrait.pdf  used on input line 598.
 (pdftex.def)             Requested size: 211.57147pt x 270.96048pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: head_foot/RF.pdf Graphic file (type pdf)
-<use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 704.
-(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 704.
-(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
- [4 <./figures/tu_portrait.pdf>]
-File: head_foot/LF.pdf Graphic file (type pdf)
-<use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 948.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 639.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 948.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 639.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
- [5]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 982.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 982.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 982.
-
-
+ [5 <./figures/tu_portrait.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<figures/exciProbs_portrait.pdf, id=335, 813.0375pt x 1266.23062pt>
-File: figures/exciProbs_portrait.pdf Graphic file (type pdf)
-<use figures/exciProbs_portrait.pdf>
-Package pdftex.def Info: figures/exciProbs_portrait.pdf  used on input line 108
-5.
-(pdftex.def)             Requested size: 238.01991pt x 370.6946pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 1112.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 777.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 1112.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 777.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
- [6 <./figures/exciProbs_portrait.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [6]
+Underfull \hbox (badness 4144) in paragraph at lines 800--809
+\T1/bch/m/n/10 We can then dis-cretize the mo-menta by re-plac-ing
+ []
 
-File: head_foot/LF.pdf Graphic file (type pdf)
-<use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 1264.
-(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
-File: head_foot/RF.pdf Graphic file (type pdf)
-<use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 1264.
-(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
- [7]
-<figures/eigenvals_portrait.pdf, id=436, 813.0375pt x 1260.96094pt>
-File: figures/eigenvals_portrait.pdf Graphic file (type pdf)
-<use figures/eigenvals_portrait.pdf>
-Package pdftex.def Info: figures/eigenvals_portrait.pdf  used on input line 126
-8.
-(pdftex.def)             Requested size: 238.01991pt x 369.15187pt.
-File: head_foot/RF.pdf Graphic file (type pdf)
-<use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 1360.
-(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
-File: head_foot/LF.pdf Graphic file (type pdf)
-<use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 1360.
-(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 
-[8 <./figures/eigenvals_portrait.pdf>]
-File: head_foot/LF.pdf Graphic file (type pdf)
-<use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 1502.
-(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
-File: head_foot/RF.pdf Graphic file (type pdf)
-<use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 1502.
-(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
- [9]
-Overfull \hbox (4.11911pt too wide) detected at line 1546
+Overfull \hbox (21.25168pt too wide) detected at line 956
 [][][]
  []
 
-<figures/edgeCross.pdf, id=566, 2133.95633pt x 1081.2044pt>
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 974.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 974.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+[7]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1008.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1008.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1008.
+
+
+Overfull \hbox (3.33113pt too wide) detected at line 1050
+[][][]
+ []
+
+<figures/exciProbs_portrait.pdf, id=357, 813.0375pt x 1266.23062pt>
+File: figures/exciProbs_portrait.pdf Graphic file (type pdf)
+<use figures/exciProbs_portrait.pdf>
+Package pdftex.def Info: figures/exciProbs_portrait.pdf  used on input line 111
+1.
+(pdftex.def)             Requested size: 238.01991pt x 370.6946pt.
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1138.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1138.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+[8 <./figures/exciProbs_portrait.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1258.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1258.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+ [9]
+<figures/eigenvals_portrait.pdf, id=455, 813.0375pt x 1260.96094pt>
+File: figures/eigenvals_portrait.pdf Graphic file (type pdf)
+<use figures/eigenvals_portrait.pdf>
+Package pdftex.def Info: figures/eigenvals_portrait.pdf  used on input line 129
+4.
+(pdftex.def)             Requested size: 238.01991pt x 369.15187pt.
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1339.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1339.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+
+[10 <./figures/eigenvals_portrait.pdf>]
+Underfull \vbox (badness 6842) has occurred while \output is active []
+
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1439.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1439.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+ [11]
+Overfull \hbox (30.09982pt too wide) detected at line 1572
+[][][]
+ []
+
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1598.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1598.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
+[12]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1640.
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 1644--1656
+\T1/bch/m/n/10 Electron beam ir-ra-di-a-tion has been shown to bore
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 1657--1694
+[]\T1/bch/m/n/10 Cretu \T1/bch/m/it/10 et al. \T1/bch/m/n/10 mea-sured the ra-d
+ial growth of these
+ []
+
+<figures/edgeCross.pdf, id=592, 2133.95633pt x 1081.2044pt>
 File: figures/edgeCross.pdf Graphic file (type pdf)
 <use figures/edgeCross.pdf>
-Package pdftex.def Info: figures/edgeCross.pdf  used on input line 1662.
+Package pdftex.def Info: figures/edgeCross.pdf  used on input line 1698.
 (pdftex.def)             Requested size: 423.151pt x 214.38928pt.
+File: head_foot/LF.pdf Graphic file (type pdf)
+<use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1755.
+(pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 1719.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1755.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (273.71552pt too wide) has occurred while \output is active
+[][][] 
+ []
+
+
+Overfull \vbox (7.00002pt too high) has occurred while \output is active []
+
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1816.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 1719.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1816.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
-[10]
-Underfull \vbox (badness 2326) has occurred while \output is active []
 
-<figures/MoS2Cross.pdf, id=596, 2048.5985pt x 1081.2044pt>
+[14 <./figures/edgeCross.pdf>]
+<figures/MoS2Cross.pdf, id=670, 2048.5985pt x 1081.2044pt>
 File: figures/MoS2Cross.pdf Graphic file (type pdf)
 <use figures/MoS2Cross.pdf>
-Package pdftex.def Info: figures/MoS2Cross.pdf  used on input line 1784.
+Package pdftex.def Info: figures/MoS2Cross.pdf  used on input line 1820.
 (pdftex.def)             Requested size: 423.151pt x 223.33112pt.
 
-Underfull \vbox (badness 2158) has occurred while \output is active []
-
-
-Overfull \hbox (273.71552pt too wide) has occurred while \output is active
-[][][] 
- []
-
-
-Overfull \vbox (7.00002pt too high) has occurred while \output is active []
+Underfull \vbox (badness 1028) has occurred while \output is active []
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 1824.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1968.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 1824.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1968.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+ [15]
+(./main.bbl
+Underfull \vbox (badness 4181) has occurred while \output is active []
 
-[11 <./figures/edgeCross.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7796) has occurred while \output is active []
 
 
 Overfull \hbox (273.71552pt too wide) has occurred while \output is active
@@ -2116,49 +2192,62 @@ Overfull \vbox (7.00002pt too high) has occurred while \output is active []
 
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 1887.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 121.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 1887.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 121.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 
-[12 <./figures/MoS2Cross.pdf>] (./main.bbl
-Overfull \vbox (1.55872pt too high) has occurred while \output is active []
+[16 <./figures/MoS2Cross.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 292--299
+[]\T1/bch/m/n/10 T. Korn, S. Hey-drich, M. Hirmer, J. Schmut-zler,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (2.61879pt too high) has occurred while \output is active []
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 267.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 444.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 267.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 444.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 
-[13]
-Underfull \hbox (badness 2875) in paragraph at lines 432--444
-\T1/bch/m/n/9 R. Gebauer, U. Ger-st-mann, C. Gougous-sis, A. Kokalj,
- []
-
-) 
+[17]) 
 AED: lastpage setting LastPage
+
+Overfull \vbox (6.75pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (8.84pt too high) has occurred while \output is active []
+
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf  used on input line 1949.
+Package pdftex.def Info: head_foot/RF.pdf  used on input line 1985.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 1949.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 1985.
 (pdftex.def)             Requested size: 167.78156pt x 9.0pt.
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1949.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1949.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1949.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1949.
+ [18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1985.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1985.
+
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1985.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1985.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3F6D6E8D7AC52F88EF4246C580AEAAD8;1159.
+(rerunfilecheck)             Checksum: 45B8ED05028614099D4BCEE8879FF20D;1226.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2167,16 +2256,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1949.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1985.
  ) 
 Here is how much of TeX's memory you used:
- 19921 strings out of 492982
- 349450 string characters out of 6134896
- 494983 words of memory out of 5000000
- 23073 multiletter control sequences out of 15000+600000
- 615894 words of font info for 155 fonts, out of 8000000 for 9000
+ 19940 strings out of 492982
+ 349594 string characters out of 6134896
+ 494191 words of memory out of 5000000
+ 23077 multiletter control sequences out of 15000+600000
+ 628209 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,23n,69p,10419b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,23n,69p,10419b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{figure.2} has been referenced but does not exist,
  replaced by a fixed one
 
@@ -2223,10 +2312,10 @@ onts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/s
 ymbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 3342775 bytes).
+Output written on main.pdf (18 pages, 3347704 bytes).
 PDF statistics:
- 828 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
- 132 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 859 PDF objects out of 1000 (max. 8388607)
+ 672 compressed objects within 7 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
