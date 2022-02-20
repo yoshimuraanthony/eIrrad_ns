@@ -502,6 +502,7 @@ section can be written as
     &=
     \sum_{n_i=0}^\infty
     P_i(\epsilon_b, n_i)
+    \\&\times
     \sum_{n_f=0}^{n_i}
     \int_{E_d(n_f)}^{E_\text{max}(\epsilon_b)}
     P_f(E, \tau, n_i, n_f)
@@ -564,9 +565,12 @@ The following subsections address each step (i-iv) in detail.
 \label{sec:ee}
 %------------------------------------------------------------------------------
 
+% \begin{figure*}
 \begin{figure}
   \centering
+%   \includegraphics[width=.48\textwidth]{figures/tu.pdf}
   \includegraphics[width=.4\textwidth]{figures/tu_portrait.pdf}
+%   \includegraphics[width=.8\textwidth]{figures/tu.pdf}
   \caption{
     The lowest order electron-electron scattering perturbation includes two
     Feynman diagrams called the (a) $t$-channel and (b) $u$-channel.
@@ -579,6 +583,7 @@ The following subsections address each step (i-iv) in detail.
     electrons.
   }
 \label{fig:tu}
+% \end{figure*}
 \end{figure}
 
 We first derive the scattering amplitude for momentum transfer between two free
@@ -700,10 +705,11 @@ final 2-particle states, \textit{i.e.},
 \begin{equation} 
   \label{eq:amp} 
   \begin{aligned}
-    &\bra{\phi_4\phi_3} \hat{T} \ket{\phi_2\phi_1}
-    = 
+    \bra{\phi_4\phi_3} \hat{T} \ket{\phi_2\phi_1}
+    &= 
     \int \frac{d^3p_4d^3p_3d^3p_2d^3p_1} {(2\pi)^{12}
     16\epsilon_4\epsilon_3\epsilon_2\epsilon_1}
+    \\&\times
     \bra{\phi_4\phi_3}\ket{p_4p_3} \bra{p_4p_3}\hat{T}\ket{p_2p_1}
     \bra{p_2p_1}\ket{\phi_2\phi_1}.
 \end{aligned} 
@@ -731,12 +737,16 @@ Using the delta function to integrate over $\mathbf{p}_4$ and $p_3^z$ yields
 \begin{equation} 
   \label{eq:ampUseDelta} 
   \begin{aligned} 
-    \int\frac{d^2p_3^\perp
-    d^3p_2d^3p_1} {(2\pi)^{8} 16\epsilon_2\epsilon_1}
-    \frac{\mathcal{M}(p_4p_3\leftarrow p_2p_1)}
+    \int\frac{d^2p_3^\perp d^3p_2d^3p_1}
+    {(2\pi)^{8} 16\epsilon_2\epsilon_1}
+    &\frac{\mathcal{M}(p_4p_3\leftarrow p_2p_1)}
     % \frac{\mathcal{M}(p_4p_3\leftarrow p_2p_1)}
-    {\left|p_3^z\epsilon_4 - p_4^z\epsilon_3\right|} \bra{\phi_4}\ket{p_4}
-    \bra{\phi_3}\ket{p_3} \bra{p_2}\ket{\phi_2} \bra{p_1}\ket{\phi_1},
+    {\left|p_3^z\epsilon_4 - p_4^z\epsilon_3\right|}
+    \\&\times
+    \bra{\phi_4}\ket{p_4}
+    \bra{\phi_3}\ket{p_3}
+    \bra{p_2}\ket{\phi_2}
+    \bra{p_1}\ket{\phi_1},
   \end{aligned} 
 \end{equation}
 %
@@ -751,11 +761,14 @@ The normalization of 4-momentum states $\ket{p_n}$ in terms of
   \begin{aligned} 
     \int\frac{d^2p_3^\perp
     d^3p_2d^3p_1}{(2\pi)^{8}}
-    \sqrt{\frac{\epsilon_4\epsilon_3}{\epsilon_2\epsilon_1}}
+    &\sqrt{\frac{\epsilon_4\epsilon_3}{\epsilon_2\epsilon_1}}
     % \frac{\mathcal{M}}
     \frac{\mathcal{M}(p_4p_3\leftarrow p_2p_1)} {4\left|p_3^z\epsilon_4 -
-    p_4^z\epsilon_3\right|} \bra{\phi_4}\ket{\mathbf{p}_4}
-    \bra{\phi_3}\ket{\mathbf{p}_3} \bra{\mathbf{p}_2}\ket{\phi_2}
+    p_4^z\epsilon_3\right|}
+    \\&\times
+    \bra{\phi_4}\ket{\mathbf{p}_4}
+    \bra{\phi_3}\ket{\mathbf{p}_3}
+    \bra{\mathbf{p}_2}\ket{\phi_2}
     \bra{\mathbf{p}_1}\ket{\phi_1}.  
   \end{aligned} 
 \end{equation}
@@ -773,11 +786,14 @@ to scatter into $\ket{\phi_3}$ and $\ket{\phi_4}$ takes the form
   \begin{aligned} 
     \frac{1}{AV^2}
     \sum_{\mathbf{p}_3^\perp} \sum_{\mathbf{p}_2} \sum_{\mathbf{p}_1}
-    \sqrt{\frac{\epsilon_4\epsilon_3}{\epsilon_2\epsilon_1}}
+    &\sqrt{\frac{\epsilon_4\epsilon_3}{\epsilon_2\epsilon_1}}
     % \frac{\mathcal{M}}
     \frac{\mathcal{M}(p_4p_3\leftarrow p_2p_1)} {4\left|p_3^z\epsilon_4 -
-    p_4^z\epsilon_3\right|} \bra{\phi_4}\ket{\mathbf{p}_4}
-    \bra{\phi_3}\ket{\mathbf{p}_3} \bra{\mathbf{p}_2}\ket{\phi_2}
+    p_4^z\epsilon_3\right|}
+    \\&\times
+    \bra{\phi_4}\ket{\mathbf{p}_4}
+    \bra{\phi_3}\ket{\mathbf{p}_3}
+    \bra{\mathbf{p}_2}\ket{\phi_2}
     \bra{\mathbf{p}_1}\ket{\phi_1}.  
   \end{aligned} 
 \end{equation}
@@ -862,7 +878,7 @@ The initial beam state is highly localized on $\mathbf{p}_b$, meaning that
     \quad\Rightarrow\quad
     \bra{\mathbf{p}_1}\ket{\mathbf{p}_b}
     =
-    V^{1/2}\delta_{\mathbf{p}_1,\mathbf{p}_b}.
+    \sqrt{V}\delta_{\mathbf{p}_1,\mathbf{p}_b}.
 \end{equation}
 %
 Meanwhile, the ground and excited crystal states can be expanded into a
@@ -872,17 +888,19 @@ plane-wave basis, so that
   \begin{aligned}
     &\ket{n\mathbf{k}}
     =
-    V^{-1/2}\sum_{\mathbf{G}}
+    \frac{1}{\sqrt{V}}\sum_{\mathbf{G}}
     C_{\mathbf{G+k}}^n \ket{\mathbf{G+k}}
     \\& \ket{n'\mathbf{k'}}
     =
-    V^{-1/2}\sum_{\mathbf{G}} C_{\mathbf{G+k'}}^{n'} \ket{\mathbf{G+k'}},
+    \frac{1}{\sqrt{V}}\sum_{\mathbf{G}}
+    C_{\mathbf{G+k'}}^{n'} \ket{\mathbf{G+k'}},
   \end{aligned}
 \end{equation}
 %
 where each $\mathbf{G}$ is a reciprocal lattice vector.
-By re-expressing $\mathbf{p}_2$ and $\mathbf{p}_3$ as $\mathbf{G}_2+\mathbf{k}_2$ and
-$\mathbf{G}_3 + \mathbf{k}_3$ respectively, we find
+By re-expressing $\mathbf{p}_2$ and $\mathbf{p}_3$ as
+$\mathbf{G}_2+\mathbf{k}_2$ and $\mathbf{G}_3 + \mathbf{k}_3$ respectively, we
+find
 
 \begin{equation} 
   \label{eq:phi_2} 
@@ -891,22 +909,22 @@ $\mathbf{G}_3 + \mathbf{k}_3$ respectively, we find
     =
     \bra{\mathbf{G}_2 + \mathbf{k}_2}
     \left(
-        V^{-1/2}\sum_{\mathbf{G}}
+        \frac{1}{\sqrt{V}}\sum_{\mathbf{G}}
         C_{\mathbf{G+k}}^n \ket{\mathbf{G+k}}
     \right)
     =
-    V^{1/2}C^n_{\mathbf{G}_2+\mathbf{k}}
+    \sqrt{V}C^n_{\mathbf{G}_2+\mathbf{k}}
     \delta_{\mathbf{k}_2,\mathbf{k}}.
     \\&
     \bra{\mathbf{p}_3}\ket{n'\mathbf{k'}}
     =
     \bra{\mathbf{G}_3 + \mathbf{k}_3}
     \left(
-        V^{-1/2}\sum_{\mathbf{G}}
+        \frac{1}{\sqrt{V}}\sum_{\mathbf{G}}
         C_{\mathbf{G+k'}}^{n'} \ket{\mathbf{G+k'}}
     \right)
     =
-    V^{1/2}C^{n'}_{\mathbf{G}_3+\mathbf{k'}}
+    \sqrt{V}C^{n'}_{\mathbf{G}_3+\mathbf{k'}}
     \delta_{\mathbf{k}_3,\mathbf{k'}}.
   \end{aligned}
 \end{equation}
@@ -920,20 +938,22 @@ wish for $\ket{\mathbf{p}_b'}$ to satisfy
     =
     V \quad\Rightarrow\quad \bra{\mathbf{p}_4}\ket{\mathbf{p}_b'}
     =
-    V^{1/2}.
+    \sqrt{V}.
 \end{equation}
 %
-The excitation amplitude is then obtained by plugging in the bra-ket products from
-equations (\ref{eq:phi_1}), (\ref{eq:phi_2}), and (\ref{eq:phi_4}) into
-equation (\ref{eq:ampCrystal}). This gives us the excitation amplitude
+The excitation amplitude is then obtained by plugging in the bra-ket products
+from equations (\ref{eq:phi_1}), (\ref{eq:phi_2}), and (\ref{eq:phi_4}) into
+equation (\ref{eq:ampCrystal}).
+This gives us the excitation amplitude
 
 \begin{equation} 
   \begin{aligned}
       \bra{\mathbf{p}_b', n'\mathbf{k'}} \hat{T} \ket{n\mathbf{k},\mathbf{p}_b}
-      =
+      &=
       \frac{1}{A}
       \sum_{\mathbf{G}_3^\perp} \sum_{\mathbf{G}_2}
       \sqrt{\frac{ \epsilon_4\epsilon_3 }{ \epsilon_1\epsilon_2 }}
+      \\&\times
       \frac{\mathcal{M}(p_4p_3\leftarrow p_2p_1)}
       {4\left|p_3^z\epsilon_4 - p_4^z\epsilon_3\right|}
       C_{\mathbf{G}_3+\mathbf{k'}}^{n'\ast} C_{\mathbf{G}_2+\mathbf{k}}^{n},
@@ -1059,10 +1079,12 @@ approximately
 %
 Thus, we see that the probability $P_i$ can be written purely in terms of $S$.
 
+% \begin{figure*}
 \begin{figure}
   \centering
-%   \includegraphics[width=.9\textwidth]{figures/exciProbs_overlap.pdf}
   \includegraphics[width=.45\textwidth]{figures/exciProbs_portrait.pdf}
+%   \includegraphics[width=.48\textwidth]{figures/exciProbs_overlap.pdf}
+%   \includegraphics[width=.8\textwidth]{figures/exciProbs_overlap.pdf}
   \caption{
     Probabilities of initially exciting a certain number of electrons $n_i$ in
     (a) hBN and (b) \ce{MoS2} with a beam electron.
@@ -1071,6 +1093,7 @@ Thus, we see that the probability $P_i$ can be written purely in terms of $S$.
     because \ce{MoS2} has a significantly smaller band gap.
   } 
   \label{fig:Pi}
+% \end{figure*}
 \end{figure}
 
 We can now use formula (\ref{eq:Pi}) to calculate excitation probabilities in
@@ -1239,9 +1262,12 @@ PKA to the host crystal.
 Thus, we should consider how the beam-induced excitations affect the electronic
 structure on both the PKA and the remaining vacancy.
 
+% \begin{figure*}
 \begin{figure}
   \centering
   \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.pdf}
+%   \includegraphics[width=.48\textwidth]{figures/eigenvals_overlap.pdf}
+%   \includegraphics[width=.8\textwidth]{figures/eigenvals_overlap.pdf}
   \caption{
     Eigenvalues and occupations of the eigenstates of armchair hBN throughout
     the sputtering process with respect to the distance between sputtered (a)
@@ -1257,6 +1283,7 @@ structure on both the PKA and the remaining vacancy.
     valence band and rise into the gap during nitrogen sputtering.
   }
   \label{fig:eigenvals}
+% \end{figure*}
 \end{figure}
 
 We start by considering how the ground state eigenvalues evolve as the PKA
@@ -1481,7 +1508,7 @@ survive is
       n_i\\n_f
     \end{pmatrix}
     R^{n_f}(1-R)^{n_i - n_f}
-    =
+    \\&=
     \begin{pmatrix}
       n_i\\n_f
     \end{pmatrix}
@@ -1535,7 +1562,7 @@ integral on the right can be written as
       \frac{4\tau^2 E_\text{max}}{d^2M} \frac{\mu\xi+1}{\mu^2} e^{-\mu\xi}
       \\&+
       2\beta(\pi Z\alpha+\beta)\text{Ei}(-\mu\xi)
-      +
+      \\&+
       \frac{\pi Z\alpha\beta\tau}{\mu d}\sqrt{\frac{8E_\text{max}}{M}}
       e^{-\mu\xi}
     \bigg]
@@ -1630,8 +1657,10 @@ Lastly, temperature effects on the cross section are considered in the manner
 described in our previous work.\cite{Yoshimura2018}
 
 \begin{figure*} 
+% \begin{figure} 
   \centering
-  \includegraphics[width=.9\textwidth]{figures/edgeCross.pdf}
+  \includegraphics[width=.8\textwidth]{figures/edgeCross.pdf}
+%   \includegraphics[width=.48\textwidth]{figures/edgeCross.pdf}
   \caption{
     Sputtering from the armchair edge of hBN.
     The schematics in panels (a) and (b) depict the sputtering of nitrogen from
@@ -1651,6 +1680,7 @@ described in our previous work.\cite{Yoshimura2018}
   }
   \label{fig:edgeCross}
 \end{figure*}
+% \end{figure}
 
 Fitting our cross section curves to the data of Cretu \textit{et al.} yields an
 excellent agreement if the predicted excitation lifetime is set to $\tau \sim
@@ -1749,8 +1779,10 @@ This again increases the likelihood that hBN has more final excitations than
 sputtering cross section are greater.
 
 \begin{figure*}
+% \begin{figure}
   \centering
-  \includegraphics[width=.9\textwidth]{figures/MoS2Cross.pdf}
+  \includegraphics[width=.8\textwidth]{figures/MoS2Cross.pdf}
+%   \includegraphics[width=.48\textwidth]{figures/MoS2Cross.pdf}
   \caption{
     Sputtering of sulfur from the outgoing \ce{MoS2} surface.
     The sputtering of molybdenum from \ce{MoS2} can be ignored because its
@@ -1769,6 +1801,7 @@ sputtering cross section are greater.
   }
   \label{fig:MoS2Cross}
 \end{figure*}
+% \end{figure}
 
 We also plot the contributions of $n_f = 0$, 1, and 2 excitations to \ce{MoS2}'s
 sputtering cross section separately.
