@@ -320,82 +320,6 @@ We then use this model to calculate sputtering cross sections in hBN and
 % Finally,
 % we describe the details of our DFT calculations.
 
-%-----------------------------------------------------------------------------
-\section{Computational Details}
-\label{sec:methods}
-%-------------------------------------------------------------------------------
-
-% DFT \cite{Hohenberg1964, Kohn1965} was used to determine all electronic and
-% ionic structures from first-principles.
-DFT \cite{Hohenberg1964, Kohn1965} was used to calculate
-(1) the plane wave coefficients $C^n_\mathbf{G+k}$ and eigenvalues
-$\epsilon_{n\mathbf{k}}$ of each material's electronic orbitals to determine
-the excitation probabilities (section \ref{sec:crystal})
-and (2) the free energies of the pristine and sputtered structures to determine
-the displacement threshold for sputtering (section \ref{sec:assumptions}).
-
-% We begin by describing the calculations of the plane-wave coefficients and
-% eigenvalues.
-Plane-wave coefficients and eigenvalues were calculated using
-Quantum ESPRESSO \cite{Giannozzi2009}.
-Because equation (\ref{eq:ampCode}) relies on the orthogonality of the
-Kohn-Sham orbitals, the optimized norm-conserving Vanderbilt
-pseudopotentials \cite{Hamann2013, Schlipf2015} were employed.
-The sum of all transition probabilities $S$ defined in equation (\ref{eq:S})
-was used to gage the convergence of all parameters, which were deemed converged
-when any increase in precision changed $S$ by less than 5\% (figure
-\ref{fig:convergences}).
-% The parameter values that satisfy this criteria differed substantially from
-% those needed for free energy convergence.
-The cutoff energies for hBN and \ce{MoS2} were set to 299 and 286 eV
-respectively, while their cell-heights were respectively set to 18 and 12
-{\AA}.
-% We recognize that this is significantly lower than what is typically required
-% for norm-conserving psuedopotentials.
-For both materials, the maximum virtual photon momentum
-$|\mathbf{q}_\text{max}|$ required for convergence fell well within their first
-BZs.
-We therefore chose $|\mathbf{q}_\text{max}|$ to be the magnitude of
-high-symmetry point $K$ in each respective BZ.
-The maximum number of initial excitations considered for hBN and \ce{MoS2} were
-$n_i^\text{max} = 5$ and 9 respectively (figure \ref{fig:nimax}).
-Finally, convergence of $S$ requires extremely dense k-point sampling of the
-BZ.
-This necessitates fitting a curve to $S$ calculated for various k-point mesh
-densities and extrapolating to an infinitely fine mesh to estimate the
-converged value of $S$ (section \ref{app:fitting}).
-The most dense k-point meshes used to fit these curves had dimensions of
-$45\times45\times1$ and $36\times36\times1$ for hBN and \ce{MoS2} respectively.
-
-Next, free energy calculations were carried out with the Vienna ab initio
-Simulation Package (VASP) \cite{Kresse1996, Kresse1996a} implementing the
-projector augmented wave (PAW) method \cite{Blochl1994} along with the
-Perdew-Burke-Ernserhof (PBE) generalized gradient approximation (GGA) to the
-exchange correlation functional. \cite{Perdew1996}
-Van der Waals interactions were accounted for using the optB88-vdW density
-functional methods. \cite{Klimes2010, Klimes2011}
-All parameters were converged so that any increase in precision would change
-the total free energy by less than 1 meV per atom.
-The parameter values that satisfy this criteria differed substantially from
-those listed in the previous paragraph.
-The cutoff energies for hBN and \ce{MoS2} were set to 800 and 550 eV
-respectively, while the BZs of both materials' pristine unit cells were sampled
-with a $\Gamma$-centered $6\times6\times1$ Monkhorst-Pack meshes,
-\cite{Monkhorst1976} corresponding to 0.417 and 0.328 and k-points per inverse
-{\AA} for hBN and \ce{MoS2} respectively.
-To achieve the same k-point densities, surface vacancies in \ce{MoS2} and edge
-vacancies in hBN were placed in respective $6\times6\times1$ and
-$4\times1\times1$ supercells whose BZs were sampled with a single k-point on
-$\Gamma$.
-The heights of the hBN and \ce{MoS2} cells were 12 {\AA} and 20 {\AA}
-respectively to provide sufficient separation from periodic images.
-Nanoribbon structures were used to simulate isolated armchair edges in hBN.
-These ribbons were more than 16 {\AA} across and placed in cells 28 {\AA} wide
-to avoid interactions between opposing edges and periodic images.
-Lastly, relaxation iterations of ionic positions and lattice constants
-persisted until the all Hellmann-Feynman forces settled below 1 
-meV/{\AA}.
-
 %------------------------------------------------------------------------------
 \section{Theoretical Model}
 \label{sec:bigPicture}
@@ -550,9 +474,9 @@ $\{E_d\}$.
 Section \ref{sec:probability} describes how to combine QED with DFT to obtain
 $P_i$.
 Section \ref{sec:sputtering} then considers the evolution of the excited states
-during the sputtering process to derive $\{E_d\}$ and $P_f$. It then demonstrates
-how our formalism significantly improves the prediction of sputtering rates in
-hBN and \ce{MoS2}.
+during the sputtering process to derive $\{E_d\}$ and $P_f$.
+% It then demonstrates how our formalism significantly improves the prediction of
+% sputtering rates in hBN and \ce{MoS2}.
 
 %------------------------------------------------------------------------------
 \subsection{Probability of beam-induced excitation} 
@@ -595,7 +519,7 @@ The following subsections address each step (i-iv) in detail.
 \begin{figure}
   \centering
 %   \includegraphics[width=.48\textwidth]{figures/tu.pdf}
-  \includegraphics[width=.4\textwidth]{figures/tu_portrait.pdf}
+  \includegraphics[width=.38\textwidth]{figures/tu_portrait.pdf}
 %   \includegraphics[width=.8\textwidth]{figures/tu.pdf}
   \caption{
     The lowest order electron-electron scattering perturbation includes two
@@ -1105,12 +1029,12 @@ approximately
 %
 Thus, we see that the probability $P_i$ can be written purely in terms of $S$.
 
-% \begin{figure*}
-\begin{figure}
+\begin{figure*}
+% \begin{figure}
   \centering
-  \includegraphics[width=.45\textwidth]{figures/exciProbs_portrait.pdf}
+%   \includegraphics[width=.45\textwidth]{figures/exciProbs_portrait.pdf}
 %   \includegraphics[width=.48\textwidth]{figures/exciProbs_overlap.pdf}
-%   \includegraphics[width=.8\textwidth]{figures/exciProbs_overlap.pdf}
+  \includegraphics[width=.8\textwidth]{figures/exciProbs_overlap.pdf}
   \caption{
     Probabilities of initially exciting a certain number of electrons $n_i$ in
     (a) hBN and (b) \ce{MoS2} with a beam electron.
@@ -1119,8 +1043,8 @@ Thus, we see that the probability $P_i$ can be written purely in terms of $S$.
     because \ce{MoS2} has a significantly smaller band gap.
   } 
   \label{fig:Pi}
-% \end{figure*}
-\end{figure}
+\end{figure*}
+% \end{figure}
 
 We can now use formula (\ref{eq:Pi}) to calculate excitation probabilities in
 hBN and \ce{MoS2} (figure \ref{fig:Pi}).
@@ -1288,12 +1212,12 @@ PKA to the host crystal.
 Thus, we should consider how the beam-induced excitations affect the electronic
 structure on both the PKA and the remaining vacancy.
 
-% \begin{figure*}
-\begin{figure}
+\begin{figure*}
+% \begin{figure}
   \centering
-  \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.pdf}
+%   \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.pdf}
 %   \includegraphics[width=.48\textwidth]{figures/eigenvals_overlap.pdf}
-%   \includegraphics[width=.8\textwidth]{figures/eigenvals_overlap.pdf}
+  \includegraphics[width=.8\textwidth]{figures/eigenvals_overlap.pdf}
   \caption{
     Eigenvalues and occupations of the eigenstates of armchair hBN throughout
     the sputtering process with respect to the distance between sputtered (a)
@@ -1309,8 +1233,8 @@ structure on both the PKA and the remaining vacancy.
     valence band and rise into the gap during nitrogen sputtering.
   }
   \label{fig:eigenvals}
-% \end{figure*}
-\end{figure}
+\end{figure*}
+% \end{figure}
 
 We start by considering how the ground state eigenvalues evolve as the PKA
 moves away from the crystal.  For hBN, the evolution of eigenvalues differ
@@ -1552,9 +1476,9 @@ Equation (\ref{eq:Pf}) allows us to rewrite the integral in equation
 
 \begin{equation}
   \begin{aligned}
-    &\int_{E_d}^{E_\text{max}}
+    \int_{E_d}^{E_\text{max}}
     P_f \frac{d\sigma}{dE} dE
-    =
+    &=
     \begin{pmatrix}
       n_i\\n_f
     \end{pmatrix}
@@ -1563,6 +1487,7 @@ Equation (\ref{eq:Pf}) allows us to rewrite the integral in equation
       n_i-n_f\\n
     \end{pmatrix}
     (-1)^n
+    \\&\times
     \int^{E_\text{max}}_{E_d}
     R^{n_f+n}
     \frac{d\sigma}{dE}
@@ -1631,13 +1556,13 @@ cross sections of hBN and \ce{MoS2}.
 %------------------------------------------------------------------------------
 
 We now apply our theoretical model to calculate the sputtering cross sections
-of boron and nitrogen of hBN and sulfur from \ce{MoS2}.
+of boron and nitrogen from hBN and sulfur from \ce{MoS2}.
 In doing so, we show that the consideration of electronic excitations is
 necessary to make quantitative predictions about beam-induced sputtering rates
 in 2D insulators.
 
 %------------------------------------------------------------------------------
-\subsubsection{Boron and nitrogen sputtering from hexagonal boron nitride}
+\subsection{Boron and nitrogen sputtering from hexagonal boron nitride}
 \label{sec:hBN}
 %------------------------------------------------------------------------------
 
@@ -1754,7 +1679,7 @@ These findings could facilitate precise control of nanopore growth rates in hBN
 under electron irradiation.
 
 %------------------------------------------------------------------------------
-\subsubsection{Sulfur sputtering from molybdenum disulfide}
+\subsection{Sulfur sputtering from molybdenum disulfide}
 \label{sec:MoS2}
 %------------------------------------------------------------------------------
 
@@ -1928,15 +1853,94 @@ We hope that this work and the work it may stimulate can eventually enable the
 use of electron beams for precise atomic-scale engineering of crystalline
 materials.
 
+%-----------------------------------------------------------------------------
+\section{Computational Details}
+\label{sec:methods}
+%-------------------------------------------------------------------------------
+
+% DFT \cite{Hohenberg1964, Kohn1965} was used to determine all electronic and
+% ionic structures from first-principles.
+DFT \cite{Hohenberg1964, Kohn1965} was used to calculate
+(1) the plane wave coefficients $C^n_\mathbf{G+k}$ and eigenvalues
+$\epsilon_{n\mathbf{k}}$ of each material's electronic orbitals to determine
+the excitation probabilities (section \ref{sec:crystal})
+and (2) the free energies of the pristine and sputtered structures to determine
+the displacement threshold for sputtering (section \ref{sec:assumptions}).
+
+% We begin by describing the calculations of the plane-wave coefficients and
+% eigenvalues.
+Plane-wave coefficients and eigenvalues were calculated using
+Quantum ESPRESSO. \cite{Giannozzi2009}
+Because equation (\ref{eq:ampCode}) relies on the orthogonality of the
+Kohn-Sham orbitals, the optimized norm-conserving Vanderbilt
+pseudopotentials \cite{Hamann2013, Schlipf2015} were employed.
+The sum of all transition probabilities $S$ defined in equation (\ref{eq:S})
+was used to gage the convergence of all parameters, which were deemed converged
+when any increase in precision changed $S$ by less than 5\% (figure
+\ref{fig:convergences}).
+% The parameter values that satisfy this criteria differed substantially from
+% those needed for free energy convergence.
+The cutoff energies for hBN and \ce{MoS2} were set to 299 and 286 eV
+respectively, while their cell-heights were respectively set to 18 and 12
+{\AA}.
+% We recognize that this is significantly lower than what is typically required
+% for norm-conserving psuedopotentials.
+For both materials, the maximum virtual photon momentum
+$|\mathbf{q}_\text{max}|$ required for convergence fell well within their first
+BZs.
+We therefore chose $|\mathbf{q}_\text{max}|$ to be the magnitude of
+high-symmetry point $K$ in each respective BZ.
+The maximum number of initial excitations considered for hBN and \ce{MoS2} were
+$n_i^\text{max} = 5$ and 9 respectively (figure \ref{fig:nimax}).
+Finally, convergence of $S$ requires extremely dense k-point sampling of the
+BZ.
+This necessitates fitting a curve to $S$ calculated for various k-point mesh
+densities and extrapolating to an infinitely fine mesh to estimate the
+converged value of $S$ (section \ref{app:fitting}).
+The most dense k-point meshes used to fit these curves had dimensions of
+$45\times45\times1$ and $36\times36\times1$ for hBN and \ce{MoS2} respectively.
+
+Next, free energy calculations were carried out with the Vienna ab initio
+Simulation Package (VASP) \cite{Kresse1996, Kresse1996a} implementing the
+projector augmented wave (PAW) method \cite{Blochl1994} along with the
+Perdew-Burke-Ernserhof (PBE) generalized gradient approximation (GGA) to the
+exchange correlation functional. \cite{Perdew1996}
+Van der Waals interactions were accounted for using the optB88-vdW density
+functional methods. \cite{Klimes2010, Klimes2011}
+All parameters were converged so that any increase in precision would change
+the total free energy by less than 1 meV per atom.
+The parameter values that satisfy this criteria differed substantially from
+those listed in the previous paragraph.
+The cutoff energies for hBN and \ce{MoS2} were set to 800 and 550 eV
+respectively, while the BZs of both materials' pristine unit cells were sampled
+with a $\Gamma$-centered $6\times6\times1$ Monkhorst-Pack meshes,
+\cite{Monkhorst1976} corresponding to 0.417 and 0.328 and k-points per inverse
+{\AA} for hBN and \ce{MoS2} respectively.
+To achieve the same k-point densities, surface vacancies in \ce{MoS2} and edge
+vacancies in hBN were placed in respective $6\times6\times1$ and
+$4\times1\times1$ supercells whose BZs were sampled with a single k-point on
+$\Gamma$.
+The heights of the hBN and \ce{MoS2} cells were 12 {\AA} and 20 {\AA}
+respectively to provide sufficient separation from periodic images.
+Nanoribbon structures were used to simulate isolated armchair edges in hBN.
+These ribbons were more than 16 {\AA} across and placed in cells 28 {\AA} wide
+to avoid interactions between opposing edges and periodic images.
+Lastly, relaxation iterations of ionic positions and lattice constants
+persisted until the all Hellmann-Feynman forces settled below 1 
+meV/{\AA}.
+
 %------------------------------------------------------------------------------
 \section*{Author Contributions}
 \label{sec:contributions}
 %------------------------------------------------------------------------------
-We strongly encourage authors to include author contributions and recommend
-using \href{https://casrai.org/credit/}{CRediT} for standardised contribution
-descriptions. Please refer to our general
-\href{https://www.rsc.org/journals-books-databases/journal-authors-reviewers/author-responsibilities/}{author
-guidelines} for more information about authorship.
+
+AY and ML designed the code used to calculate the excitation probabilities and
+their effect on the sputtering cross section.
+AY and JG developed the theoretical model to describe beam-induced electronic
+excitation.
+AY, DL, JJ, PG, TY, BGS, and VM, developed the theoretical model to describe how
+excitations affect the sputtering cross section.
+AY carried out all calculations.
 
 %------------------------------------------------------------------------------
 \section*{Conflicts of interest}
@@ -1961,7 +1965,7 @@ This material is also based upon work supported by the U.S. DOE, Office of
 Science, Office of Workforce Development for Teachers and Scientists, Office of
 Science Graduate Student Research (SCGSR) program.
 The SCGSR program is administered by the Oak Ridge Institute for Science and
-Education for the DOE under contract number DE‐SC0014664.
+Education for the DOE under contract number DE-SC0014664.
 Funding was provided by the National Science Foundation (Award 1608171).  Work
 (BGS, PG, DL, JJ) was also supported by ORNL's Center for Nanophase Materials
 Sciences, a U.S. DOE Office of Science User Facility.
