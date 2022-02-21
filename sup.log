@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  19 FEB 2022 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  21 FEB 2022 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1888,33 +1888,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip69
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/xr-hyper.sty
-Package: xr-hyper 2000/03/22 v6.00beta4 eXternal References (DPC)
-
-
-Package xr-hyper Warning: Load package `hyperref' after `xr-hyper'.
-
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 1994/05/28 v5.02 eXternal References (DPC)
 )
-Package xr Info: IMPORTING LABELS FROM main.aux on input line 24.
+Package xr Info: IMPORTING LABELS FROM main.aux on input line 21.
  (./sup.aux)
 \openout1 = `sup.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 69.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 67.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1984,10 +1981,10 @@ e
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 69.
+. Activating mapping `default' on line 67.
 .................................................
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 69.
+Package hyperref Info: Link coloring OFF on input line 67.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1996,144 +1993,144 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
 
 (./sup.out) (./sup.out)
 \@outlinefile=\write3
 \openout3 = `sup.out'.
 
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 72.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 70.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 72.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 70.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 72.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 70.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 72.
+(Font)              <12> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 72.
+(Font)              <8> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 72.
+(Font)              <6> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 72.
+(Font)              <9> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 72.
+(Font)              <5> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 74.
+(Font)              <14.4> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 74.
+(Font)              <10> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 74.
+(Font)              <7> on input line 72.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 74.
+(hyperref)                removing `math shift' on input line 72.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 74.
+(hyperref)                removing `math shift' on input line 72.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 243.
+(hyperref)                removing `math shift' on input line 241.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 243.
+(hyperref)                removing `superscript' on input line 241.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 243.
+(hyperref)                removing `subscript' on input line 241.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 243.
+(hyperref)                removing `math shift' on input line 241.
 
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 357.
+(hyperref)                removing `math shift' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 357.
+(hyperref)                removing `subscript' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 357.
+(hyperref)                removing `superscript' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 357.
+(hyperref)                removing `math shift' on input line 355.
 
 <figures/nimax.pdf, id=114, 1626.075pt x 542.025pt>
 File: figures/nimax.pdf Graphic file (type pdf)
 <use figures/nimax.pdf>
-Package pdftex.def Info: figures/nimax.pdf  used on input line 363.
+Package pdftex.def Info: figures/nimax.pdf  used on input line 361.
 (pdftex.def)             Requested size: 383.03014pt x 127.67363pt.
 [5 <./figures/nimax.pdf>]
 <figures/edgePeaks.pdf, id=379, 433.62pt x 361.35pt>
 File: figures/edgePeaks.pdf Graphic file (type pdf)
 <use figures/edgePeaks.pdf>
-Package pdftex.def Info: figures/edgePeaks.pdf  used on input line 385.
+Package pdftex.def Info: figures/edgePeaks.pdf  used on input line 383.
 (pdftex.def)             Requested size: 229.82042pt x 191.5201pt.
  [6 <./figures/edgePeaks.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 399.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 399.
 
 <figures/scatterDirHBN.png, id=427, 433.62pt x 361.35pt>
 File: figures/scatterDirHBN.png Graphic file (type png)
 <use figures/scatterDirHBN.png>
-Package pdftex.def Info: figures/scatterDirHBN.png  used on input line 407.
+Package pdftex.def Info: figures/scatterDirHBN.png  used on input line 405.
 (pdftex.def)             Requested size: 229.82042pt x 191.5201pt.
 <figures/sum.pdf, id=432, 1626.075pt x 715.17188pt>
 File: figures/sum.pdf Graphic file (type pdf)
 <use figures/sum.pdf>
-Package pdftex.def Info: figures/sum.pdf  used on input line 443.
+Package pdftex.def Info: figures/sum.pdf  used on input line 441.
 (pdftex.def)             Requested size: 383.03014pt x 168.45827pt.
 [7 <./figures/scatterDirHBN.png>]
 <figures/convergences.pdf, id=452, 1626.075pt x 978.65625pt>
 File: figures/convergences.pdf Graphic file (type pdf)
 <use figures/convergences.pdf>
-Package pdftex.def Info: figures/convergences.pdf  used on input line 519.
+Package pdftex.def Info: figures/convergences.pdf  used on input line 517.
 (pdftex.def)             Requested size: 383.03014pt x 230.52184pt.
  [8 <./figures/sum.pdf>] [9 <./figures/convergences.pdf>] [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 599.
+(hyperref)                removing `math shift' on input line 597.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 599.
+(hyperref)                removing `subscript' on input line 597.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 599.
+(hyperref)                removing `math shift' on input line 597.
 
 <figures/emin.pdf, id=1449, 433.62pt x 361.35pt>
 File: figures/emin.pdf Graphic file (type pdf)
 <use figures/emin.pdf>
-Package pdftex.def Info: figures/emin.pdf  used on input line 605.
+Package pdftex.def Info: figures/emin.pdf  used on input line 603.
 (pdftex.def)             Requested size: 229.82042pt x 191.5201pt.
 [11 <./figures/emin.pdf>] (./sup.bbl
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 53.
@@ -2141,19 +2138,19 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 53.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 678.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 676.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 678.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 676.
  (./sup.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 678.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 678.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 676.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 676.
 Package rerunfilecheck Info: File `sup.out' has not changed.
 (rerunfilecheck)             Checksum: 5939F52483E2A8EB38E0C7E2B094E2ED;477.
  ) 
 Here is how much of TeX's memory you used:
  17894 strings out of 492982
- 312980 string characters out of 6134896
- 430586 words of memory out of 5000000
+ 312947 string characters out of 6134896
+ 430510 words of memory out of 5000000
  21205 multiletter control sequences out of 15000+600000
  589928 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
