@@ -1,0 +1,13 @@
+beam energy = 60000 eV
+bands       = 20
+val bands   = 13
+k-points    = 1296
+area        = 2.253578914e-06 eV^-2
+elec cutoff = 408.1707906 eV
+phot cutoff = 5 eV
+cell-height = 11.99978215 Å
+total prob  = 0.923587749
+total sum   = 2.571556776
+total time  = 2702.240323 seconds
+cpus        = 36
+
