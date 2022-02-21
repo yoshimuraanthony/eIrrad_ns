@@ -55,7 +55,7 @@
 \makeatletter
 \renewcommand\LARGE{\@setfontsize\LARGE{15pt}{17}}
 \renewcommand\Large{\@setfontsize\Large{12pt}{14}}
-enewcommand\large{\@setfontsize\large{10pt}{12}}
+\renewcommand\large{\@setfontsize\large{10pt}{12}}
 \renewcommand\footnotesize{\@setfontsize\footnotesize{7pt}{10}}
 \makeatother
 
@@ -124,8 +124,8 @@ enewcommand\large{\@setfontsize\large{10pt}{12}}
 
 \includegraphics{head_foot/DOI} &
 \noindent\LARGE{\textbf{%
-  Quantum Theory of Electronic Excitation and Sputtering
-  by Transmission Electron Microscopy%
+  Quantum theory of electronic excitation and sputtering
+  by transmission electron microscopy%
   $^\dag$
 }} \\%Article title goes here instead of the text "This is the title"
 \vspace{0.3cm} & \vspace{0.3cm} \\
@@ -154,7 +154,7 @@ enewcommand\large{\@setfontsize\large{10pt}{12}}
   binding energies of the irradiated atoms.
   This bond softening leads to a qualitative disagreement between theory and
   experiment, in that substantial sputtering is experimentally observed at beam
-  energies deemed far to small to drive atomic dislocation by many current
+  energies deemed far too small to drive atomic dislocation by many current
   models.
 % Task / Document: what have we/this document done to address the need?
   To address these theoretical shortcomings, this paper develops a
@@ -240,17 +240,16 @@ material structure.
 Towards this aim, electron irradiation by transmission electron microscopy
 (TEM) can be an effective means of structural manipulation with spatial
 control.\cite{Banhart1999, Egerton2013, Zhao2017, Susi2019}
-Structural changes under electron irradiation can arise \textit{via} atomic
-displacement in which an incident electron nudges a material atom from its
-initial site.
+These structural changes can arise \textit{via} atomic displacement in which an
+incident electron nudges a material atom from its initial site.
 We call this atom the primary knock-on atom (PKA).
 Two-dimensional (2D) crystals provide an excellent platform to measure the
 rates of these PKA displacements.
 When electron irradiation is normal to a 2D crystal's surface, a displacement
 likely propels the PKA away from the crystal.
-As such, these displaced atoms are often ejected from the crystal in a process
-called \textit{sputtering}.  Sputtering events leave behind vacancies, which
-can then be counted using TEM.
+As such, these PKA are often ejected from the crystal in a process called
+\textit{sputtering}.
+Sputtering events leave behind vacancies, which can then be counted using TEM.
 Counting the number of vacancies for a given dosage and beam energy allows one
 to experimentally determine the sputtering cross section of that crystal.
 
@@ -287,8 +286,8 @@ This would increase the sputtering cross section for all beam energies and
 enable sputtering for energies well-below the ground state $\epsilon_c$.
 
 % Task: what we have done to address the need?
-To account for these effects, we combine quantum electrodynamics (QED) and
-density functional theory (DFT) to derive the probability of beam-induced
+To account for these effects, this paper combines quantum electrodynamics (QED)
+and density functional theory (DFT) to derive the probability of beam-induced
 electronic excitation in 2D insulating crystals.
 The basic idea is as follows: DFT can provide effective single-particle states
 that can be decomposed into a plane-wave basis,\cite{Hohenberg1964, Kohn1965,
@@ -312,8 +311,8 @@ eigenvalues for a given material.
 % This paper is divided into three sections.
 This paper is organized as follows.
 First,
-we derive the theoretical model to determine beam-induced sputtering rates in 2D
-insulating crystals.
+we derive the theoretical model to determine beam-induced sputtering cross
+sections in 2D insulating crystals.
 % Second,
 We then use this model to calculate sputtering cross sections in hBN and
 \ce{MoS2} that quantitatively agree with experiment.
@@ -327,7 +326,7 @@ We then use this model to calculate sputtering cross sections in hBN and
 
 \begin{figure}
   \centering
-  \includegraphics[width=.45\textwidth]{figures/triad.pdf}
+  \includegraphics[width=.48\textwidth]{figures/triad.pdf}
   \caption{
     Three interactions between three pairs of particles involved in electron
     beam-induced sputtering.
@@ -402,8 +401,7 @@ dependence of the cross section, so that the cross section only strays
 significantly from equation (\ref{eq:basicSigma}) for beam energies very close
 to $\epsilon_c$.
 Thus, temperature-induced increases in the cross section cannot account for the
-disparities between the equation (\ref{eq:basicSigma}) model and
-experiment.
+disparities between equation (\ref{eq:basicSigma}) and experiment.
 This necessitates the consideration of additional phenomena that can reduce
 $E_d$.
 
@@ -469,7 +467,7 @@ We will later show that this makes $\sigma$ in equation (\ref{eq:totSigma})
 larger than $\sigma_0$ in equation (\ref{eq:basicSigma}) for all beam energies,
 most prominently when $\epsilon_b < \epsilon_c$.
 
-The remainder of this paper focuses on the derivations of $P_i$, $P_f$, and
+The remainder of this section focuses on the derivations of $P_i$, $P_f$, and
 $\{E_d\}$.
 Section \ref{sec:probability} describes how to combine QED with DFT to obtain
 $P_i$.
@@ -539,8 +537,8 @@ The following subsections address each step (i-iv) in detail.
 We first derive the scattering amplitude for momentum transfer between two free
 electrons \textit{via} M{\o}ller scattering. \cite{Moller1932, Kragh1992,
 Roqu1992}
-With this, the interaction between actual material states can be written as a
-linear combination of these free-particle interactions.
+% With this amplitude, the interaction between actual material states can be
+% written as a linear combination of these free-particle interactions.
 Going forward, we label the 4-momenta of the incoming electrons as $p_1$ and
 $p_2$, while the outgoing electrons have momenta $p_3$ and $p_4$.
 We also choose to make $p_1$ and $p_2$ components of the initial beam and
@@ -595,8 +593,9 @@ incoming states are spin unpolarized.
 The first term in brackets is the $t$-channel describing momentum transfer $p_3
 - p_2$ and the second is the $u$-channel describing momentum transfer $p_4 -
 p_2$.
-Because the DFT cutoff energy is much smaller than the beam energy, it is
-always the case that $|\mathbf{p}_2|$ is much smaller than $|\mathbf{p}_1|$.
+Because the DFT cutoff energy (hundreds of eV) is much smaller than the beam
+energy (tens of keV), it is always the case that $|\mathbf{p}_2|$ is much
+smaller than $|\mathbf{p}_1|$.
 Furthermore, we need only consider outgoing momenta for which the kinetic
 energy associated with either $|\mathbf{p}_3|$ or $|\mathbf{p}_4|$ falls within
 the DFT cutoff energy.
@@ -725,9 +724,9 @@ The normalization of 4-momentum states $\ket{p_n}$ in terms of
 %
 We can then discretize the momenta by replacing $d^3p_i/(2\pi)^3$ with $V^{-1}$
 and $d^2p_i^\perp/(2\pi)^2$ with $A^{-1}$, where $V$ and $A$ are the volume and
-cross sectional area of the simulated crystal, \textit{i.e.}, the volume and
-cross sectional area of the unit cell times the number of k-points used to
-sample the BZ.
+cross sectional area of the simulated crystal respectively, \textit{i.e.}, the
+volume and cross sectional area of the unit cell times the number of k-points
+used to sample the BZ.
 With this, the amplitude for electron states $\ket{\phi_1}$ and $\ket{\phi_2}$
 to scatter into $\ket{\phi_3}$ and $\ket{\phi_4}$ takes the form
 
@@ -858,10 +857,10 @@ find
     &\bra{\mathbf{p}_2}\ket{n\mathbf{k}}
     =
     \bra{\mathbf{G}_2 + \mathbf{k}_2}
-    \left(
+%     \left(
         \frac{1}{\sqrt{V}}\sum_{\mathbf{G}}
         C_{\mathbf{G+k}}^n \ket{\mathbf{G+k}}
-    \right)
+%     \right)
     =
     \sqrt{V}C^n_{\mathbf{G}_2+\mathbf{k}}
     \delta_{\mathbf{k}_2,\mathbf{k}}.
@@ -869,10 +868,10 @@ find
     \bra{\mathbf{p}_3}\ket{n'\mathbf{k'}}
     =
     \bra{\mathbf{G}_3 + \mathbf{k}_3}
-    \left(
+%     \left(
         \frac{1}{\sqrt{V}}\sum_{\mathbf{G}}
         C_{\mathbf{G+k'}}^{n'} \ket{\mathbf{G+k'}}
-    \right)
+%     \right)
     =
     \sqrt{V}C^{n'}_{\mathbf{G}_3+\mathbf{k'}}
     \delta_{\mathbf{k}_3,\mathbf{k'}}.
@@ -1029,12 +1028,12 @@ approximately
 %
 Thus, we see that the probability $P_i$ can be written purely in terms of $S$.
 
-\begin{figure*}
-% \begin{figure}
+% \begin{figure*}
+\begin{figure}
   \centering
-%   \includegraphics[width=.45\textwidth]{figures/exciProbs_portrait.pdf}
+  \includegraphics[width=.45\textwidth]{figures/exciProbs_portrait.pdf}
 %   \includegraphics[width=.48\textwidth]{figures/exciProbs_overlap.pdf}
-  \includegraphics[width=.8\textwidth]{figures/exciProbs_overlap.pdf}
+%   \includegraphics[width=.8\textwidth]{figures/exciProbs_overlap.pdf}
   \caption{
     Probabilities of initially exciting a certain number of electrons $n_i$ in
     (a) hBN and (b) \ce{MoS2} with a beam electron.
@@ -1043,8 +1042,8 @@ Thus, we see that the probability $P_i$ can be written purely in terms of $S$.
     because \ce{MoS2} has a significantly smaller band gap.
   } 
   \label{fig:Pi}
-\end{figure*}
-% \end{figure}
+% \end{figure*}
+\end{figure}
 
 We can now use formula (\ref{eq:Pi}) to calculate excitation probabilities in
 hBN and \ce{MoS2} (figure \ref{fig:Pi}).
@@ -1212,12 +1211,12 @@ PKA to the host crystal.
 Thus, we should consider how the beam-induced excitations affect the electronic
 structure on both the PKA and the remaining vacancy.
 
-\begin{figure*}
-% \begin{figure}
+% \begin{figure*}
+\begin{figure}
   \centering
-%   \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.pdf}
+  \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.pdf}
 %   \includegraphics[width=.48\textwidth]{figures/eigenvals_overlap.pdf}
-  \includegraphics[width=.8\textwidth]{figures/eigenvals_overlap.pdf}
+%   \includegraphics[width=.8\textwidth]{figures/eigenvals_overlap.pdf}
   \caption{
     Eigenvalues and occupations of the eigenstates of armchair hBN throughout
     the sputtering process with respect to the distance between sputtered (a)
@@ -1233,8 +1232,8 @@ structure on both the PKA and the remaining vacancy.
     valence band and rise into the gap during nitrogen sputtering.
   }
   \label{fig:eigenvals}
-\end{figure*}
-% \end{figure}
+% \end{figure*}
+\end{figure}
 
 We start by considering how the ground state eigenvalues evolve as the PKA
 moves away from the crystal.  For hBN, the evolution of eigenvalues differ
@@ -1487,7 +1486,7 @@ Equation (\ref{eq:Pf}) allows us to rewrite the integral in equation
       n_i-n_f\\n
     \end{pmatrix}
     (-1)^n
-    \\&\times
+%     \\&\times
     \int^{E_\text{max}}_{E_d}
     R^{n_f+n}
     \frac{d\sigma}{dE}
@@ -1562,7 +1561,7 @@ necessary to make quantitative predictions about beam-induced sputtering rates
 in 2D insulators.
 
 %------------------------------------------------------------------------------
-\subsection{Boron and nitrogen sputtering from hexagonal boron nitride}
+\subsection{Boron and nitrogen sputtering from hexagonal BN}
 \label{sec:hBN}
 %------------------------------------------------------------------------------
 
@@ -1620,7 +1619,7 @@ described in our previous work.\cite{Yoshimura2018}
 \begin{figure*} 
 % \begin{figure} 
   \centering
-  \includegraphics[width=.8\textwidth]{figures/edgeCross.pdf}
+  \includegraphics[width=.85\textwidth]{figures/edgeCross.pdf}
 %   \includegraphics[width=.48\textwidth]{figures/edgeCross.pdf}
   \caption{
     Sputtering from the armchair edge of hBN.
@@ -1679,7 +1678,7 @@ These findings could facilitate precise control of nanopore growth rates in hBN
 under electron irradiation.
 
 %------------------------------------------------------------------------------
-\subsection{Sulfur sputtering from molybdenum disulfide}
+\subsection{Sulfur sputtering from \ce{MoS2}}
 \label{sec:MoS2}
 %------------------------------------------------------------------------------
 
@@ -1742,7 +1741,7 @@ sputtering cross section are greater.
 \begin{figure*}
 % \begin{figure}
   \centering
-  \includegraphics[width=.8\textwidth]{figures/MoS2Cross.pdf}
+  \includegraphics[width=.85\textwidth]{figures/MoS2Cross.pdf}
 %   \includegraphics[width=.48\textwidth]{figures/MoS2Cross.pdf}
   \caption{
     Sputtering of sulfur from the outgoing \ce{MoS2} surface.
@@ -1861,11 +1860,11 @@ materials.
 % DFT \cite{Hohenberg1964, Kohn1965} was used to determine all electronic and
 % ionic structures from first-principles.
 DFT \cite{Hohenberg1964, Kohn1965} was used to calculate
-(1) the plane wave coefficients $C^n_\mathbf{G+k}$ and eigenvalues
+(i) the plane wave coefficients $C^n_\mathbf{G+k}$ and eigenvalues
 $\epsilon_{n\mathbf{k}}$ of each material's electronic orbitals to determine
 the excitation probabilities (section \ref{sec:crystal})
-and (2) the free energies of the pristine and sputtered structures to determine
-the displacement threshold for sputtering (section \ref{sec:assumptions}).
+and (ii) the free energies of the pristine and sputtered structures to determine
+the displacement thresholds for sputtering (section \ref{sec:assumptions}).
 
 % We begin by describing the calculations of the plane-wave coefficients and
 % eigenvalues.
@@ -1881,10 +1880,13 @@ when any increase in precision changed $S$ by less than 5\% (figure
 % The parameter values that satisfy this criteria differed substantially from
 % those needed for free energy convergence.
 The cutoff energies for hBN and \ce{MoS2} were set to 299 and 286 eV
-respectively, while their cell-heights were respectively set to 18 and 12
-{\AA}.
-% We recognize that this is significantly lower than what is typically required
-% for norm-conserving psuedopotentials.
+respectively.
+We recognize that these cutoffs are lower than what is typically used
+for norm-conserving psuedopotentials.
+However, figure \ref{fig:convergences} shows that both cutoffs yield
+well-converged values of $S$.
+Meanwhile, the hBN and \ce{MoS2} unit cells were given heights of 18 and 12
+{\AA} respectively.
 For both materials, the maximum virtual photon momentum
 $|\mathbf{q}_\text{max}|$ required for convergence fell well within their first
 BZs.
@@ -1909,7 +1911,7 @@ Van der Waals interactions were accounted for using the optB88-vdW density
 functional methods. \cite{Klimes2010, Klimes2011}
 All parameters were converged so that any increase in precision would change
 the total free energy by less than 1 meV per atom.
-The parameter values that satisfy this criteria differed substantially from
+The parameter values that satisfy this criteria generally differed from
 those listed in the previous paragraph.
 The cutoff energies for hBN and \ce{MoS2} were set to 800 and 550 eV
 respectively, while the BZs of both materials' pristine unit cells were sampled
