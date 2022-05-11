@@ -169,8 +169,8 @@ W.~A. McKinley and H.~Feshbach, \emph{Phys. Rev.}, 1948, \textbf{74},
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Oen(1973)]{Oen1973}
-O.~S. Oen, \emph{{Cross Sections for Atomic Displacements in Solids by Fast
-  Electrons}}, Oak ridge national laboratory technical report, 1973\relax
+O.~S. Oen, \emph{{Cross sections for atomic displacements in solids by fast
+  electrons}}, Oak ridge national laboratory technical report, 1973\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -298,7 +298,7 @@ T.~Korn, S.~Heydrich, M.~Hirmer, J.~Schmutzler, C.~Sch{\"{u}}ller and
 \bibitem[Lagarde \emph{et~al.}(2014)Lagarde, Bouet, Marie, Zhu, Liu, Amand,
   Tan, and Urbaszek]{Lagarde2014}
 D.~Lagarde, L.~Bouet, X.~Marie, C.~R. Zhu, B.~L. Liu, T.~Amand, P.~H. Tan and
-  B.~Urbaszek, \emph{Phys. Rev. Lett.}, 2014, \textbf{112}, 047401\relax
+  B.~Urbaszek, \emph{Phys. Rev. Lett.}, 2014, \textbf{112}, 47401\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -373,6 +373,37 @@ B.~Kaduk, T.~Kowalczyk and T.~{Van Voorhis}, \emph{Chem. Rev.}, 2012,
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[Giannozzi \emph{et~al.}(2009)Giannozzi, Baroni, Bonini, Calandra, Car,
+  Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, Corso, de~Gironcoli,
+  Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
+  Martin-Samos, Marzari, Mauri, Mazzarello, Paolini, Pasquarello, Paulatto,
+  Sbraccia, Scandolo, Sclauzero, Seitsonen, Smogunov, Umari, and
+  Wentzcovitch]{Giannozzi2009}
+P.~Giannozzi, S.~Baroni, N.~Bonini, M.~Calandra, R.~Car, C.~Cavazzoni,
+  D.~Ceresoli, G.~L. Chiarotti, M.~Cococcioni, I.~Dabo, A.~D. Corso,
+  S.~de~Gironcoli, S.~Fabris, G.~Fratesi, R.~Gebauer, U.~Gerstmann,
+  C.~Gougoussis, A.~Kokalj, M.~Lazzeri, L.~Martin-Samos, N.~Marzari, F.~Mauri,
+  R.~Mazzarello, S.~Paolini, A.~Pasquarello, L.~Paulatto, C.~Sbraccia,
+  S.~Scandolo, G.~Sclauzero, A.~P. Seitsonen, A.~Smogunov, P.~Umari and R.~M.
+  Wentzcovitch, \emph{J. Phys. Condens. Matter}, 2009, \textbf{21},
+  395502\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hamann(2013)]{Hamann2013}
+D.~R. Hamann, \emph{Phys. Rev. B}, 2013, \textbf{88}, 85117\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schlipf and Gygi(2015)]{Schlipf2015}
+M.~Schlipf and F.~Gygi, \emph{Comput. Phys. Commun.}, 2015, \textbf{196},
+  36--44\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Kresse and Furthm{\"{u}}ller(1996)]{Kresse1996}
 G.~Kresse and J.~Furthm{\"{u}}ller, \emph{Comput. Mater. Sci.}, 1996,
   \textbf{6}, 15--50\relax
@@ -406,37 +437,6 @@ J.~Klime{\v{s}}, D.~R. Bowler and A.~Michaelides, \emph{Phys. Rev. B}, 2011,
 \bibitem[Monkhorst and Pack(1976)]{Monkhorst1976}
 H.~Monkhorst and J.~Pack, \emph{Phys. Rev. B}, 1976, \textbf{13},
   5188--5192\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Hamann(2013)]{Hamann2013}
-D.~R. Hamann, \emph{Phys. Rev. B}, 2013, \textbf{88}, 085117\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Schlipf and Gygi(2015)]{Schlipf2015}
-M.~Schlipf and F.~Gygi, \emph{Comput. Phys. Commun.}, 2015, \textbf{196},
-  36--44\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Giannozzi \emph{et~al.}(2009)Giannozzi, Baroni, Bonini, Calandra, Car,
-  Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, Corso, de~Gironcoli,
-  Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
-  Martin-Samos, Marzari, Mauri, Mazzarello, Paolini, Pasquarello, Paulatto,
-  Sbraccia, Scandolo, Sclauzero, Seitsonen, Smogunov, Umari, and
-  Wentzcovitch]{Giannozzi2009}
-P.~Giannozzi, S.~Baroni, N.~Bonini, M.~Calandra, R.~Car, C.~Cavazzoni,
-  D.~Ceresoli, G.~L. Chiarotti, M.~Cococcioni, I.~Dabo, A.~D. Corso,
-  S.~de~Gironcoli, S.~Fabris, G.~Fratesi, R.~Gebauer, U.~Gerstmann,
-  C.~Gougoussis, A.~Kokalj, M.~Lazzeri, L.~Martin-Samos, N.~Marzari, F.~Mauri,
-  R.~Mazzarello, S.~Paolini, A.~Pasquarello, L.~Paulatto, C.~Sbraccia,
-  S.~Scandolo, G.~Sclauzero, A.~P. Seitsonen, A.~Smogunov, P.~Umari and R.~M.
-  Wentzcovitch, \emph{J. Phys. Condens. Matter}, 2009, \textbf{21},
-  395502\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

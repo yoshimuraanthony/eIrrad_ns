@@ -37,6 +37,7 @@
 \usepackage{booktabs}  % \midrule in tables
 \usepackage{xr}        % reference ESI figures and sections
 \externaldocument{sup}
+% \usepackage{lmodern}   % silence LaTeX Font Warning
 
 \definecolor{cream}{RGB}{222,217,201}
 
@@ -928,7 +929,7 @@ band state $\ket{n'\mathbf{k'}}$ for a given beam energy $\epsilon_b$, that is,
 \end{equation}
 
 %------------------------------------------------------------------------------
-\subsubsection{Probability of $n_i$ excitations}
+\subsubsection{Probability of \texorpdfstring{$n_i$}{ni} excitations}
 \label{sec:Pi}
 %------------------------------------------------------------------------------
 
@@ -1214,7 +1215,8 @@ structure on both the PKA and the remaining vacancy.
 % \begin{figure*}
 \begin{figure}
   \centering
-  \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.pdf}
+  \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.png}
+%   \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.pdf}
 %   \includegraphics[width=.48\textwidth]{figures/eigenvals_overlap.pdf}
 %   \includegraphics[width=.8\textwidth]{figures/eigenvals_overlap.pdf}
   \caption{
@@ -1253,9 +1255,9 @@ energetically unfavorable since boron is electropositive. The energy cost of
 this is much larger than the band gap of hBN, compelling any excess electrons
 on boron to relax to the host crystal. On the other hand, the states that
 localize on sputtered nitrogen must rise from the valence band.
-Thus, the holes at the VBM tend to transfer positive charge to the sputtered
-nitrogen, which is again energetically unfavorable for the electronegative
-atom.
+This means that the holes at the VBM tend to transfer positive charge to the
+sputtered nitrogen, which is again energetically unfavorable for the
+electronegative atom.
 Thus, because charge transfer to the sputtered PKA has such a large energy
 cost, we presume that in most cases, the PKA becomes charge neutral by the time
 sputtering has occurred.
@@ -1509,12 +1511,18 @@ integral on the right can be written as
     &=
     \pi\left(\frac{Z\alpha}{|\mathbf{p}|\beta}\right)^2
     \bigg[
-      \frac{4\tau^2 E_\text{max}}{d^2M} \frac{\mu\xi+1}{\mu^2} e^{-\mu\xi}
+%       \frac{4\tau^2 E_\text{max}}{d^2M} \frac{\mu\xi+1}{\mu^2} e^{-\mu\xi}
+      \frac{4\tau^2 E_\text{max}}{d^2M}
+      I_1(\xi, \mu)
       \\&+
-      2\beta(\pi Z\alpha+\beta)\text{Ei}(-\mu\xi)
+%       2\beta(\pi Z\alpha+\beta)\text{Ei}(-\mu\xi)
+      2\beta(\pi Z\alpha+\beta)
+      I_2(\xi, \mu)
       \\&+
-      \frac{\pi Z\alpha\beta\tau}{\mu d}\sqrt{\frac{8E_\text{max}}{M}}
-      e^{-\mu\xi}
+%       \frac{\pi Z\alpha\beta\tau}{\mu d}\sqrt{\frac{8E_\text{max}}{M}}
+%       e^{-\mu\xi}
+      \frac{\pi Z\alpha\beta\tau}{d}\sqrt{\frac{8E_\text{max}}{M}}
+      I_3(\xi, \mu)
     \bigg]
     +\text{const}.,
   \end{aligned}
@@ -1524,13 +1532,47 @@ integral on the right can be written as
 where we define
 
 \begin{equation}
-  \xi \equiv \frac{-d}{\tau} \sqrt{\frac{M}{2E}}
+  \xi \equiv \frac{d}{\tau} \sqrt{\frac{M}{2E}}
   \quad\text{and}\quad
   \mu \equiv n_f + n,
   \label{eq:xi}
 \end{equation}
 %
-and the function Ei is the exponential integral,
+and the functions $I_1$, $I_2$, and $I_3$ are
+
+\begin{equation}
+  I_1(\xi, \mu)
+  =
+  \begin{cases}
+    -\frac{\xi^2}{2} &\text{if } \mu=0\\
+    \frac{\mu\xi+1}{\mu^2} e^{-\mu\xi}  &\text{if } \mu>0,
+  \end{cases}
+  \label{eq:I1}
+\end{equation}
+%
+\begin{equation}
+  I_2(\xi, \mu)
+  =
+  \begin{cases}
+    \ln(\xi) &\text{if } \mu=0\\
+    \text{Ei}(-\mu\xi) &\text{if } \mu>0,
+  \end{cases}
+  \label{eq:I2}
+\end{equation}
+%
+and 
+
+\begin{equation}
+  I_3(\xi, \mu)
+  =
+  \begin{cases}
+    -\xi &\text{if } \mu=0\\
+    \frac{e^{-\mu\xi}}{\mu}  &\text{if } \mu>0.
+  \end{cases}
+  \label{eq:I3}
+\end{equation}
+%
+Lastly, the function Ei in equation (\ref{eq:I2}) is the exponential integral,
 
 \begin{equation}
   \text{Ei}(x) = \int_{-\infty}^x \frac{e^t}{t}dt.
@@ -1678,7 +1720,7 @@ These findings could facilitate precise control of nanopore growth rates in hBN
 under electron irradiation.
 
 %------------------------------------------------------------------------------
-\subsection{Sulfur sputtering from \ce{MoS2}}
+\subsection{Sulfur sputtering from \texorpdfstring{\ce{MoS2}}{MoS2}}
 \label{sec:MoS2}
 %------------------------------------------------------------------------------
 
