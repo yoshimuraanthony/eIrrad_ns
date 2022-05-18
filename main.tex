@@ -251,8 +251,8 @@ likely propels the PKA away from the crystal.
 As such, these PKA are often ejected from the crystal in a process called
 \textit{sputtering}.
 Sputtering events leave behind vacancies, which can then be counted using TEM.
-Counting the number of vacancies for a given dosage and beam energy allows one
-to experimentally determine the sputtering cross section of that crystal.
+Counting the number of vacancies for a given dose and beam energy allows one to
+experimentally determine the sputtering cross section of that crystal.
 
 % Need: why is the state of the art not good enough?
 Sputtering occurs when the energy transferred to the PKA is greater than
@@ -269,7 +269,8 @@ Thus, while present-day models give reasonable predictions for
 conductors,\cite{Meyer2012} where electronic relaxation is rapid, they often
 vastly underestimate the atomic displacement rates in insulators.
 For example, the critical energy for sputtering boron or nitrogen from
-hexagonal boron nitride (hBN) is predicted to be 80 keV.\cite{Kotakoski2010}
+hexagonal boron nitride (hBN) is predicted to be about 80
+keV.\cite{Kotakoski2010}
 However, sputtering has been observed in hBN under 30 keV
 irradiation.\cite{Cretu2015}
 Furthermore, selenium sputters from \ce{WSe2} and \ce{MoSe2} under irradiation
@@ -383,10 +384,10 @@ $d\sigma/dE$ over all $E$ large enough to cause a displacement, so that
 %
 where $E_\text{max}(\epsilon_b)$
 is the maximum possible energy transfer for a given beam energy, i.e, the
-energy transfer resulting from a direct collision, and the step function
-$\theta$ enforces that the cross section is zero when $E_\text{max} < E_d$.
-We will leave the step function implicit going forward for the sake of
-compactness.
+energy transfer resulting from a direct collision.
+The step function $\theta$ (which we will leave implicit going forward for the
+sake of compactness) enforces that the cross section is zero when $E_\text{max}
+< E_d$.
 The critical energy $\epsilon_c$ is then the beam energy for which
 $E_\text{max}=E_d$.
 Therefore, the observation of sputtering at energies well below $\epsilon_c$ is
@@ -514,12 +515,9 @@ The following subsections address each step (i-iv) in detail.
 \label{sec:ee}
 %------------------------------------------------------------------------------
 
-% \begin{figure*}
 \begin{figure}
   \centering
-%   \includegraphics[width=.48\textwidth]{figures/tu.pdf}
   \includegraphics[width=.38\textwidth]{figures/tu_portrait.pdf}
-%   \includegraphics[width=.8\textwidth]{figures/tu.pdf}
   \caption{
     The lowest order electron-electron scattering perturbation includes two
     Feynman diagrams called the (a) $t$-channel and (b) $u$-channel.
@@ -532,7 +530,6 @@ The following subsections address each step (i-iv) in detail.
     electrons.
   }
 \label{fig:tu}
-% \end{figure*}
 \end{figure}
 
 We first derive the scattering amplitude for momentum transfer between two free
@@ -864,7 +861,7 @@ find
 %     \right)
     =
     \sqrt{V}C^n_{\mathbf{G}_2+\mathbf{k}}
-    \delta_{\mathbf{k}_2,\mathbf{k}}.
+    \delta_{\mathbf{k}_2,\mathbf{k}},
     \\&
     \bra{\mathbf{p}_3}\ket{n'\mathbf{k'}}
     =
@@ -1029,12 +1026,9 @@ approximately
 %
 Thus, we see that the probability $P_i$ can be written purely in terms of $S$.
 
-% \begin{figure*}
 \begin{figure}
   \centering
   \includegraphics[width=.45\textwidth]{figures/exciProbs_portrait.pdf}
-%   \includegraphics[width=.48\textwidth]{figures/exciProbs_overlap.pdf}
-%   \includegraphics[width=.8\textwidth]{figures/exciProbs_overlap.pdf}
   \caption{
     Probabilities of initially exciting a certain number of electrons $n_i$ in
     (a) hBN and (b) \ce{MoS2} with a beam electron.
@@ -1043,7 +1037,6 @@ Thus, we see that the probability $P_i$ can be written purely in terms of $S$.
     because \ce{MoS2} has a significantly smaller band gap.
   } 
   \label{fig:Pi}
-% \end{figure*}
 \end{figure}
 
 We can now use formula (\ref{eq:Pi}) to calculate excitation probabilities in
@@ -1090,8 +1083,8 @@ figure \ref{fig:tu} is the difference in energy eigenvalues between the
 occupied and unoccupied states (section \ref{sec:crystal}).
 Thus, the smallest possible denominator of the $t$-channel in equation
 (\ref{eq:M}) is proportional to the difference in eigenvalues squared.
-The experimentally measured band gap of \ce{MoS2} about 1.9 eV \cite{Gusakova2017}
-while that of hBN is about 6.1 eV.\cite{Elias2019}
+The experimentally measured band gap of \ce{MoS2} is about 1.9 eV
+\cite{Gusakova2017} while that of hBN is about 6.1 eV.\cite{Elias2019}
 This means \ce{MoS2} hosts transitions with smaller eigenvalue differences,
 making the summands in equation (\ref{eq:ampCode}) larger.
 
@@ -1120,9 +1113,10 @@ We then show that longer excitation lifetimes increase $P_f$ for nonzero $n_f$,
 giving the beam-induced excitations more opportunities to lessen $E_d$.
 This motivates us to write the sputtering cross section in equation
 (\ref{eq:totSigma}) analytically in terms of the excitation lifetime $\tau$.
-Finally, the resulting equation is used to predict the sputtering rates of
-boron and nitrogen in hBN and sulfur in \ce{MoS2}, which can be made to agree
-well with experiment for appropriate values of $\tau$ for each material.
+Finally, in the next section, the resulting equation is used
+to predict the sputtering rates of boron and nitrogen in hBN and sulfur in
+\ce{MoS2}, which can be made to agree well with experiment for appropriate
+values of $\tau$ for each material.
 
 %------------------------------------------------------------------------------
 \subsubsection{Effect of excitations on the displacement threshold}
@@ -1212,13 +1206,9 @@ PKA to the host crystal.
 Thus, we should consider how the beam-induced excitations affect the electronic
 structure on both the PKA and the remaining vacancy.
 
-% \begin{figure*}
 \begin{figure}
   \centering
   \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.png}
-%   \includegraphics[width=.45\textwidth]{figures/eigenvals_portrait.pdf}
-%   \includegraphics[width=.48\textwidth]{figures/eigenvals_overlap.pdf}
-%   \includegraphics[width=.8\textwidth]{figures/eigenvals_overlap.pdf}
   \caption{
     Eigenvalues and occupations of the eigenstates of armchair hBN throughout
     the sputtering process with respect to the distance between sputtered (a)
@@ -1234,7 +1224,6 @@ structure on both the PKA and the remaining vacancy.
     valence band and rise into the gap during nitrogen sputtering.
   }
   \label{fig:eigenvals}
-% \end{figure*}
 \end{figure}
 
 We start by considering how the ground state eigenvalues evolve as the PKA
@@ -1498,9 +1487,9 @@ Equation (\ref{eq:Pf}) allows us to rewrite the integral in equation
 \end{equation}
 %
 Assumption 3 from the previous subsection again aids us here.
-Because the PKA travels at a constant velocity until it reaches the sputtering
-distance $d$, we can write $t_s$ from equation (\ref{eq:R}) quite simply as
-$t_s = d\sqrt{M/2E}$.
+Because we posit that the PKA travels at a constant velocity until it reaches
+the sputtering distance $d$, we can write $t_s$ from equation (\ref{eq:R})
+quite simply as $t_s = d\sqrt{M/2E}$.
 This allows for the straightforward analytical integration of equation
 (\ref{eq:integral}).  Using $d\sigma/dE$ defined in equation (\ref{eq:MF}), the
 integral on the right can be written as
@@ -1659,10 +1648,8 @@ Lastly, temperature effects on the cross section are considered in the manner
 described in our previous work.\cite{Yoshimura2018}
 
 \begin{figure*} 
-% \begin{figure} 
   \centering
   \includegraphics[width=.85\textwidth]{figures/edgeCross.pdf}
-%   \includegraphics[width=.48\textwidth]{figures/edgeCross.pdf}
   \caption{
     Sputtering from the armchair edge of hBN.
     The schematics in panels (a) and (b) depict the sputtering of nitrogen from
@@ -1682,7 +1669,6 @@ described in our previous work.\cite{Yoshimura2018}
   }
   \label{fig:edgeCross}
 \end{figure*}
-% \end{figure}
 
 Fitting our cross section curves to the data of Cretu \textit{et al.} yields an
 excellent agreement if the predicted excitation lifetime is set to $\tau \sim
@@ -1698,8 +1684,8 @@ However, such a study is beyond the scope of this work.
 With that said, the electronic structure in the vicinity of a sputtering PKA
 differs significantly from that of the pristine room-temperature systems in
 which excitation lifetimes are experimentally measured.
-There is therefore no reason to expect the predicted lifetimes in this
-work to match those obtained by experiment.
+There is therefore no reason to expect the predicted lifetimes in this work to
+match those obtained by experiments on systems not undergoing sputtering.
 
 We also see that the sputtering cross section, and thus the growth rate of the
 nanopore, is minimized for beam energies between 30 and 60 keV.
@@ -1781,10 +1767,8 @@ This again increases the likelihood that hBN has more final excitations than
 sputtering cross section are greater.
 
 \begin{figure*}
-% \begin{figure}
   \centering
   \includegraphics[width=.85\textwidth]{figures/MoS2Cross.pdf}
-%   \includegraphics[width=.48\textwidth]{figures/MoS2Cross.pdf}
   \caption{
     Sputtering of sulfur from the outgoing \ce{MoS2} surface.
     The sputtering of molybdenum from \ce{MoS2} can be ignored because its
@@ -1803,7 +1787,6 @@ sputtering cross section are greater.
   }
   \label{fig:MoS2Cross}
 \end{figure*}
-% \end{figure}
 
 We also plot the contributions of $n_f = 0$, 1, and 2 excitations to \ce{MoS2}'s
 sputtering cross section separately.
@@ -1871,7 +1854,8 @@ The beam electron path can also change significantly after collision with
 the nucleus.
 Ensuing research should investigate how these altered trajectories generate new
 excitation probabilities $P_i$, which must certainly play a role in 3D bulk
-materials as a well layered and confined 2D systems\cite{}<++>.
+materials as well as layered and confined 2D systems.\cite{Wang2019,
+KakanakovaGeorgieva2020, KakanakovaGeorgieva2021, Wang2021}
 Furthermore, the methods here can be modified to accommodate more advanced DFT
 techniques.
 For example, the calculation of $P_i$ should be made compatible with ultrasoft
@@ -1940,7 +1924,9 @@ This necessitates fitting a curve to $S$ calculated for various k-point mesh
 densities and extrapolating to an infinitely fine mesh to estimate the
 converged value of $S$ (section \ref{app:fitting}).
 The most dense k-point meshes used to fit these curves had dimensions of
-$45\times45\times1$ and $36\times36\times1$ for hBN and \ce{MoS2} respectively.
+$45\times45\times1$ and $36\times36\times1$ for hBN and \ce{MoS2} respectively,
+corresponding to very similar linear k-point spacings of 0.056 and 0.055
+{\AA}$^{-1}$ respectively.
 
 Next, free energy calculations were carried out with the Vienna ab initio
 Simulation Package (VASP) \cite{Kresse1996, Kresse1996a} implementing the
@@ -1955,9 +1941,9 @@ The parameter values that satisfy this criteria generally differed from
 those listed in the previous paragraph.
 The cutoff energies for hBN and \ce{MoS2} were set to 800 and 550 eV
 respectively, while the BZs of both materials' pristine unit cells were sampled
-with a $\Gamma$-centered $6\times6\times1$ Monkhorst-Pack meshes,
-\cite{Monkhorst1976} corresponding to 0.417 and 0.328 and k-points per inverse
-{\AA} for hBN and \ce{MoS2} respectively.
+with $\Gamma$-centered $6\times6\times1$ Monkhorst-Pack meshes,
+\cite{Monkhorst1976} corresponding to linear k-point spacings of 0.417 and
+0.328 {\AA}$^{-1}$ for hBN and \ce{MoS2} respectively.
 To achieve the same k-point densities, surface vacancies in \ce{MoS2} and edge
 vacancies in hBN were placed in respective $6\times6\times1$ and
 $4\times1\times1$ supercells whose BZs were sampled with a single k-point on

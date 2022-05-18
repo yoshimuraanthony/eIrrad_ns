@@ -16,7 +16,6 @@
 \usepackage{lmodern}
 \usepackage[english]{babel}
 \usepackage[version=3]{mhchem}  % chemical formulas in main text
-\usepackage{xcolor}  % color text using \textcolor{color}{text}
 \usepackage{hyperref}
 \usepackage{xr}
 \externaldocument{main}
@@ -415,7 +414,6 @@ smaller than that of the beam electron.
   \label{fig:scatter}
 \end{figure}
 %
-\textcolor{blue}{
 As shown in formula (\ref{eq:Pi}), the probability $P_i(\epsilon_b, n_i)$ that
 a beam electron of energy $\epsilon_b$ excites a specific number $n_i$ of
 material electrons depends solely $S(\epsilon_b)$, the sum of all transition
@@ -426,7 +424,6 @@ In this section, we describe the general scheme that we use to converge $S$
 with respect to our simulation parameters.
 In particular, the convergence with respect to k-point density must be treated
 with care, and will be the primary focus of the remainder of this section.
-}
 
 Because the square of the momentum transfer appears in the denominator of the
 $t$-channel in equation (\ref{eq:M}), the probability density for electronic
@@ -464,11 +461,9 @@ $N_k$.
     $\epsilon_b$, which is fitted well by equation (\ref{eq:SEb}).
     The green arrow in panel (b) illustrates how $S_\infty(\epsilon_b=40\text{
     keV})$ is determined by the fit in panel (a).
-    \textcolor{blue}{
     The fitted curve in panel (b) is then used as $S(\epsilon_b)$ in formula
     (\ref{eq:Pi}) to calculate $P_i$ for hBN.
     The same fitting and extrapolation method is used for MoS$_2$.
-    }
   }
   \label{fig:Sfit}
 \end{figure}
